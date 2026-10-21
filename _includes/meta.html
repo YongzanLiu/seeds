@@ -30,9 +30,10 @@
 
 {% assign description = description | xml_escape %}
 
-{% assign png = "images/icon.png" | file_exists %}
+{% assign png = "images/seeds-icon-v6-192.png" | file_exists %}
+{% assign fallback_png = "images/icon.png" | file_exists %}
 {% assign jpg = "images/icon.jpg" | file_exists %}
-{% assign icon = png | default: jpg | absolute_url %}
+{% assign icon = png | default: fallback_png | default: jpg | absolute_url %}
 
 {% assign jpg = "images/share.jpg" | file_exists %}
 {% assign png = "images/share.png" | file_exists %}
@@ -48,7 +49,10 @@
 <title>{{ fulltitle }}</title>
 <link rel="canonical" href="{{ url }}">
 
-<link rel="icon" href="{{ icon }}">
+<link rel="icon" type="image/x-icon" sizes="16x16 32x32 48x48 64x64 128x128 256x256" href="{{ '/images/seeds-favicon-v6.ico' | relative_url }}">
+<link rel="icon" type="image/png" sizes="32x32" href="{{ '/images/seeds-icon-v6-32.png' | relative_url }}">
+<link rel="icon" type="image/png" sizes="192x192" href="{{ '/images/seeds-icon-v6-192.png' | relative_url }}">
+<link rel="apple-touch-icon" sizes="180x180" href="{{ '/images/seeds-apple-touch-icon-v6.png' | relative_url }}">
 
 <meta name="title" content="{{ title }}">
 <meta name="description" content="{{ description }}">

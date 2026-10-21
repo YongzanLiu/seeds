@@ -1,0 +1,13 @@
+Use case: precise-object-edit.
+Asset type: SEEDS Lab website reservoir icon, transparent background.
+Edit the supplied existing icon with ONE change: lengthen the hydraulic fractures into the reservoir and correct their depth / occlusion.
+
+Preserve the three-layer isometric blue/cyan block, solid opaque navy top layer, translucent blue middle layer, cyan bottom layer, existing thin horizontal well and exactly three parallel fracture stages. Preserve the smooth cyan/green/yellow/orange fracture coloring and rounded thin-sheet outlines.
+
+Currently the fractures look like three small circular discs placed on the front window. Transform them into LONG, broad, vertically oriented planar hydraulic fractures, with lateral length approximately THREE TIMES the present length, while retaining approximately the present vertical height. The lateral long axis runs from the well DEEP INTO THE BLOCK, perpendicular to the well. In this exact camera view, that depth direction projects DIAGONALLY UPPER LEFT across the visible middle-layer window. Each fracture is a SINGLE continuous thin vertical elliptical/lenticular plane with a long rounded advancing front, not two orthogonal surfaces.
+
+The nearest fracture, the LEFTMOST stage along the well, is the visual focus: its large elongated continuous face extends far toward the back-left of the exposed translucent middle layer. Show its full long swept oval silhouette clearly across that exposed window, with smoothly tapered ends and coherent field coloring from center to rim. Its long axis must visibly reach inside the rock rather than only increasing its vertical height.
+
+Repeat the same physical orientation and elongated geometry at the middle and rightmost stages, but render them correctly partially OCCLUDED by the solid upper layer / reservoir boundaries in this viewing angle. Their interior portions may disappear beneath the top layer. Do not turn the top layer transparent to expose them. Do not rotate the back fractures toward the viewer to artificially show complete ellipses. All three fracture planes remain parallel, perpendicular to the well and contained entirely in the middle layer. Where the well crosses a fracture, it lies through that fracture's interior. Follow consistent isometric projection, correct near/far overlap and believable depth ordering. One clear long foreground fracture is preferable to three completely visible discs.
+
+Keep the overall polished simple logo appearance, same block silhouette and genuine external alpha transparency. No labels, text, mesh, spheres, particles, extra wells, sails, triangular fins, rock slabs, or fracture through the top/bottom layers.
