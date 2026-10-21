@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net" version="24.7.17">
+  <diagram name="SEEDS research framework" id="seeds-framework">
+    <mxGraphModel dx="1120" dy="1000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1120" pageHeight="1000" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="observe" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#4b718d;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="385" y="30" width="350" height="350" />
+        </mxCell>
+        <mxCell id="observe-title" value="&lt;b&gt;Monitoring &amp;&lt;br&gt;Experimentation&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fillColor=none;fontColor=#ffffff;fontFamily=Arial;fontSize=29;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="400" y="115" width="320" height="82" />
+        </mxCell>
+        <mxCell id="observe-body" value="Distributed strain &amp; temperature&lt;br&gt;Microseismic observations&lt;br&gt;Laboratory &amp; field measurements" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fillColor=none;fontColor=#ffffff;fontFamily=Arial;fontSize=19;spacing=7;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="392" y="213" width="336" height="95" />
+        </mxCell>
+        <mxCell id="characterize" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#3d8c86;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="115" y="380" width="370" height="370" />
+        </mxCell>
+        <mxCell id="characterize-title" value="&lt;b&gt;Fracture Geometry&lt;br&gt;&amp; Evolution&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fillColor=none;fontColor=#ffffff;fontFamily=Arial;fontSize=29;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="140" y="475" width="320" height="82" />
+        </mxCell>
+        <mxCell id="characterize-body" value="Propagation &amp; interactions&lt;br&gt;Geometry from monitoring data&lt;br&gt;Long-term fracture properties" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fillColor=none;fontColor=#ffffff;fontFamily=Arial;fontSize=19;spacing=7;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="132" y="573" width="336" height="95" />
+        </mxCell>
+        <mxCell id="model" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#756fa1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="635" y="380" width="370" height="370" />
+        </mxCell>
+        <mxCell id="model-title" value="&lt;b&gt;Coupled Reservoir&lt;br&gt;Processes&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fillColor=none;fontColor=#ffffff;fontFamily=Arial;fontSize=29;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="660" y="475" width="320" height="82" />
+        </mxCell>
+        <mxCell id="model-body" value="Fluid flow · heat transport&lt;br&gt;Geomechanics · seismic response&lt;br&gt;Long-term reservoir behavior" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fillColor=none;fontColor=#ffffff;fontFamily=Arial;fontSize=19;spacing=7;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="652" y="573" width="336" height="95" />
+        </mxCell>
+        <mxCell id="data-inference" source="observe" target="characterize" edge="1" parent="1" style="edgeStyle=none;curved=1;html=1;rounded=1;strokeColor=#93a8b1;strokeWidth=7;startArrow=classic;startFill=1;endArrow=classic;endFill=1;">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="190" y="260" />
+              <mxPoint x="150" y="350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="model-validation" source="observe" target="model" edge="1" parent="1" style="edgeStyle=none;curved=1;html=1;rounded=1;strokeColor=#93a8b1;strokeWidth=7;startArrow=classic;startFill=1;endArrow=classic;endFill=1;">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="930" y="260" />
+              <mxPoint x="970" y="350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="physics-properties" source="characterize" target="model" edge="1" parent="1" style="edgeStyle=none;curved=1;html=1;rounded=1;strokeColor=#93a8b1;strokeWidth=7;startArrow=classic;startFill=1;endArrow=classic;endFill=1;">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="350" y="820" />
+              <mxPoint x="770" y="820" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="data-label" value="Data-constrained&lt;br&gt;inference" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fillColor=#ffffff;fontColor=#516b76;fontFamily=Arial;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="80" y="292" width="230" height="60" />
+        </mxCell>
+        <mxCell id="validation-label" value="Model–measurement&lt;br&gt;validation" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fillColor=#ffffff;fontColor=#516b76;fontFamily=Arial;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="810" y="292" width="230" height="60" />
+        </mxCell>
+        <mxCell id="physics-label" value="Geometry &amp;amp; properties ↔ Physics-based interpretation" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fillColor=#ffffff;fontColor=#516b76;fontFamily=Arial;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="260" y="814" width="600" height="42" />
+        </mxCell>
+        <mxCell id="seeds-hub" value="&lt;b&gt;SEEDS&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:18px&quot;&gt;Fractured&lt;br&gt;subsurface reservoirs&lt;/font&gt;" style="shape=hexagon;perimeter=hexagonPerimeter2;direction=north;html=1;whiteSpace=wrap;fillColor=#123a48;strokeColor=#ffffff;strokeWidth=5;fontColor=#ffffff;fontFamily=Arial;fontSize=38;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="455" y="335" width="210" height="240" />
+        </mxCell>
+        <mxCell id="applications" value="&lt;font style=&quot;font-size:13px&quot;&gt;ENERGY APPLICATIONS&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;Unconventional oil &amp;amp; gas　 ·　 Enhanced geothermal systems　 ·　 Subsurface energy storage&lt;/b&gt;" style="rounded=1;arcSize=18;html=1;whiteSpace=wrap;fillColor=#edf4f4;strokeColor=#d6e4e6;fontColor=#173e4b;fontFamily=Arial;fontSize=18;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="70" y="899" width="980" height="86" />
+        </mxCell>
+        <mxCell id="application-arrow" value="↓" style="text;html=1;align=center;fontSize=30;fontColor=#93a8b1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="540" y="852" width="40" height="40" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

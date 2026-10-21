@@ -1,0 +1,58 @@
+# Temporary entries show the layout until project details are provided.
+# Entries appear in this order. Add image, image_alt, and url when available.
+- title: Hydraulic Fracture Monitoring and Characterization
+  summary: >-
+    We develop forward models and inversion algorithms to interpret
+    **cross-well distributed fiber-optic strain sensing** data for quantitative
+    hydraulic fracture characterization. Forward models link fracture growth and
+    geometry to strain-rate patterns, while inverse models use differences in
+    signal sensitivity before and after fracture hits to estimate different fracture
+    parameters. Together, these approaches support field assessments of stimulation
+    effectiveness and fracturing design.
+  image: images/research-projects/hydraulic-fracture-monitoring.gif
+  poster: images/research-projects/hydraulic-fracture-monitoring-poster.png
+  image_alt: >-
+    Synthetic three-dimensional cross-well monitoring animation showing a hydraulic
+    fracture growing from a treatment well toward a parallel monitoring well,
+    with a synchronized strain-rate waterfall.
+  url: /research/hydraulic-fracture-monitoring/
+  link_label: Read more
+
+- title: Coupled THM Modeling and Applications
+  summary: >-
+    We continue to develop **GeoFTSim+**, our in-house code for coupled
+    **thermal–hydraulic–mechanical (THM)** modeling. We use it to simulate
+    reservoir behavior during oil and gas field development, investigate stress
+    changes induced by fluid production and injection, and interpret pressure,
+    temperature, and strain data from interwell interference tests.
+  image: images/research-projects/coupled-thm-modeling-v4.gif
+  poster: images/research-projects/coupled-thm-modeling-v4-poster.png
+  image_alt: >-
+    GeoFTSim+ research overview showing gas-production fracture pressure,
+    depletion-induced stress variation, fracture meshing, and a labeled schematic
+    of depletion and strain responses, alongside synchronized EGS pressure,
+    temperature, DTS and production histories.
+  url: /research/coupled-thm-modeling/
+  link_label: Read more
+
+- title: Monitoring and Modeling of Induced Seismicity
+  summary: >-
+    We develop **DAS-based workflows for seismic event detection and location**,
+    using waveform coherence to identify weak events in continuous recordings.
+    We also use **quasi-dynamic fracture and fault slip models** coupled with
+    reservoir flow and geomechanics, including thermal effects for geothermal
+    applications. These models investigate how pore-pressure changes, cooling,
+    stress transfer, and frictional weakening govern seismic activation during
+    geothermal circulation, CO₂ storage, and other subsurface operations.
+  image: images/research-projects/induced-seismicity/induced-seismicity-overview.gif
+  poster: images/research-projects/induced-seismicity/induced-seismicity-overview-poster.png
+  mobile_image: images/research-projects/induced-seismicity/induced-seismicity-overview-mobile.gif
+  mobile_poster: images/research-projects/induced-seismicity/induced-seismicity-overview-mobile-poster.png
+  media_class: research-project-media-stacked-mobile
+  image_alt: >-
+    Downhole DAS waveform example for seismic event detection and location,
+    alongside simulated EGS seismic events accumulating at their catalogue
+    locations from day 0 to day 1000. Event color indicates occurrence time;
+    the shear-slip background is the fixed final field at day 1000.
+  url: /research/induced-seismicity/
+  link_label: Read more

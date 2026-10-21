@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "frames": 121,
+  "dimensions": [
+    1440,
+    900
+  ],
+  "loop_duration_ms": 15540,
+  "mean_final_fracture_pressure_MPa": 16.07118797302246,
+  "mean_final_matrix_pressure_MPa": 28.22047233581543,
+  "maximum_decoded_frame_MAE": 0.35429655349794237,
+  "model_image_change_MAE": 27.52212983770287,
+  "color_scale_identical_across_all_frames": true,
+  "gif_bytes": 3524472,
+  "model_data_bytes": 6258967
+}

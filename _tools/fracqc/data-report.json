@@ -1,0 +1,55 @@
+{
+  "date": "2019-04-18",
+  "clock_convention": "Clock labels from the original stage-19 analysis; no timezone conversion.",
+  "left_panels": {
+    "source": "Supplied monitoring figure; plot data are embedded as a raster, with a separately drawn scan cursor. Native data found locally were not substituted because they did not reproduce this figure.",
+    "limits_as_labeled_in_supplied_figure": {
+      "vertical_strain_rate_per_s": [
+        -2e-10,
+        2e-10
+      ],
+      "horizontal_strain": [
+        -1e-09,
+        1e-09
+      ]
+    },
+    "pumping": "The pumping panel is also embedded from the approved monitoring figure. The packaged CSV is supporting source context, not substituted into the displayed figure.",
+    "annotation_cleanup": "monitoring-clean.png is the built-in imagegen annotation-removal output chosen by the user. It is a visual source figure, not recovered raw measurement data. The three reference PNGs are retained unchanged."
+  },
+  "before_hit": {
+    "selected_series": "Liu et al. (red triangles in supplied chart)",
+    "result_file": "sources/before-hit-selected-series.dat",
+    "n": 76,
+    "first_minute_of_day": 505.85,
+    "last_minute_of_day": 543.35,
+    "timestamp_basis": "Original pre-hit notebook: monitoring start 08:17:51 + 8 min, 30-second increments. The separately assembled pumping subplot in the supplied figure is not used to stretch these timestamps."
+  },
+  "after_hit": {
+    "n": 117,
+    "first_minute_of_day": 558.0083796535017,
+    "last_minute_of_day": 662.9064677114162,
+    "source": "Curves and shaded intervals digitized from supplied after-hit PNG. This is a raster-derived display approximation, not new inversion data or a confidence-interval interpretation.",
+    "timestamp_basis": "Least-squares affine mapping from the five visible clock tick positions on the supplied figure, 09:31 through 10:51. Do not stretch to the longer legacy NPY inversion time range. X sampling is for animation, not a claim about the original inversion sampling interval.",
+    "clock_fit_minutes_per_pixel_and_intercept": [
+      0.15071564376137142,
+      547.156853302683
+    ],
+    "clock_fit_max_residual_seconds": 3.6171754502674958,
+    "pixel_quantization": "About 0.0064 mm in width and 1.28 m in height; time alignment approximately 10 seconds per pixel. Isolated missing line pixels at intersections are interpolated from visible neighbours."
+  },
+  "transition": "Compress approximately 09:03 to 09:18 into a 600 ms eased scan and fade between right-panel layouts. No intermediate notice, pause or added inversion values; not an inferred exact fracture-hit time.",
+  "source_files": [
+    "after-hit-reference.png",
+    "before-hit-reference.png",
+    "before-hit-selected-series.dat",
+    "monitoring-clean.png",
+    "monitoring-reference.png",
+    "pumping-stage19.csv"
+  ],
+  "source_image_sha256": {
+    "after-hit-reference.png": "9db61b9118e99e4520db955252580042cfa4d6c72f73977d3c76507f24a5f54d",
+    "before-hit-reference.png": "c12f0e20db44c49eee64754440e5dc840122f13feb4c5ab5a749126f8345d60a",
+    "monitoring-clean.png": "877148bc1fe7b0e8e1292570fb57df7f223a3306394d8771739f5f0e15f8b7ac",
+    "monitoring-reference.png": "e9096b1c4c09dee6ae81a97e2e9a3bbca98710277acf60e6ef2e382bb488b441"
+  }
+}

@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="1000" viewBox="0 0 1120 1000" role="img" aria-labelledby="framework-title framework-description">
+<title id="framework-title">SEEDS integrated research framework</title>
+<desc id="framework-description">Monitoring and experimentation, fracture geometry and evolution, and coupled reservoir processes form a reciprocal research framework around SEEDS Lab. Observations constrain fracture characterization, physics models explain monitoring responses, and characterized geometry and properties inform reservoir predictions. Applications include unconventional oil and gas, enhanced geothermal systems, and subsurface energy storage.</desc>
+<defs><marker id="framework-arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="22" markerHeight="22" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0 0L10 5L0 10Z" fill="#93a8b1"/></marker></defs>
+<rect width="1120" height="1000" fill="#ffffff"/>
+<g fill="none" stroke="#93a8b1" stroke-width="7" marker-start="url(#framework-arrow)" marker-end="url(#framework-arrow)">
+<path d="M389 245C270 260 155 335 170 433"/>
+<path d="M731 245C850 260 965 335 950 433"/>
+<path d="M300 760C390 823 730 823 820 760"/>
+</g>
+<g font-family="Arial, Helvetica, sans-serif" fill="#516b76" text-anchor="middle" font-size="18">
+<text transform="rotate(-42 245 308)" x="245" y="308">Data-constrained inference</text>
+<text transform="rotate(42 875 308)" x="875" y="308">Model–measurement validation</text>
+<text x="560" y="841">Geometry &amp; properties ↔ Physics-based interpretation</text>
+</g>
+<g id="observe"><circle cx="560" cy="205" r="175" fill="#4b718d"/>
+<g font-family="Arial, Helvetica, sans-serif" fill="#ffffff" text-anchor="middle">
+<text x="560" y="142" font-size="29" font-weight="700">Monitoring &amp;</text>
+<text x="560" y="179" font-size="29" font-weight="700">Experimentation</text>
+<text x="560" y="231" font-size="19">Distributed strain &amp; temperature</text>
+<text x="560" y="261" font-size="19">Microseismic observations</text>
+<text x="560" y="291" font-size="19">Laboratory &amp; field measurements</text>
+</g></g>
+<g id="characterize"><circle cx="300" cy="565" r="185" fill="#3d8c86"/>
+<g font-family="Arial, Helvetica, sans-serif" fill="#ffffff" text-anchor="middle">
+<text x="300" y="502" font-size="29" font-weight="700">Fracture Geometry</text>
+<text x="300" y="539" font-size="29" font-weight="700">&amp; Evolution</text>
+<text x="300" y="591" font-size="19">Propagation &amp; interactions</text>
+<text x="300" y="621" font-size="19">Geometry from monitoring data</text>
+<text x="300" y="651" font-size="19">Long-term fracture properties</text>
+</g></g>
+<g id="model"><circle cx="820" cy="565" r="185" fill="#756fa1"/>
+<g font-family="Arial, Helvetica, sans-serif" fill="#ffffff" text-anchor="middle">
+<text x="820" y="502" font-size="29" font-weight="700">Coupled Reservoir</text>
+<text x="820" y="539" font-size="29" font-weight="700">Processes</text>
+<text x="820" y="591" font-size="19">Fluid flow · heat transport</text>
+<text x="820" y="621" font-size="19">Geomechanics · seismic response</text>
+<text x="820" y="651" font-size="19">Long-term reservoir behavior</text>
+</g></g>
+<g id="seeds-hub"><path d="M560 335L665 397V513L560 575L455 513V397Z" fill="#123a48" stroke="#ffffff" stroke-width="5"/>
+<g fill="#ffffff" text-anchor="middle" font-family="Arial, Helvetica, sans-serif"><text x="560" y="443" font-size="38" font-weight="700">SEEDS</text><text x="560" y="481" font-size="18">Fractured</text><text x="560" y="505" font-size="18">subsurface reservoirs</text></g></g>
+<path d="M560 859V884" fill="none" stroke="#93a8b1" stroke-width="3" marker-end="url(#framework-arrow)"/>
+<g id="applications"><rect x="70" y="899" width="980" height="86" rx="17" fill="#edf4f4" stroke="#d6e4e6"/>
+<g font-family="Arial, Helvetica, sans-serif" text-anchor="middle"><text x="560" y="925" fill="#52757e" font-size="13" font-weight="700" letter-spacing="2">ENERGY APPLICATIONS</text>
+<g fill="#173e4b" font-size="19" font-weight="600"><text x="255" y="959">Unconventional oil &amp; gas</text><text x="560" y="959">Enhanced geothermal systems</text><text x="873" y="959">Subsurface energy storage</text></g></g></g>
+</svg>

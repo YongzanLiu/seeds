@@ -1,0 +1,897 @@
+{
+  "frames": [
+    {
+      "phase": "pre",
+      "clock": "08:25:51",
+      "minute_of_day": 505.85,
+      "duration_ms": 600
+    },
+    {
+      "phase": "pre",
+      "clock": "08:26:21",
+      "minute_of_day": 506.35,
+      "duration_ms": 90
+    },
+    {
+      "phase": "pre",
+      "clock": "08:26:51",
+      "minute_of_day": 506.85,
+      "duration_ms": 90
+    },
+    {
+      "phase": "pre",
+      "clock": "08:27:21",
+      "minute_of_day": 507.35,
+      "duration_ms": 90
+    },
+    {
+      "phase": "pre",
+      "clock": "08:27:51",
+      "minute_of_day": 507.85,
+      "duration_ms": 90
+    },
+    {
+      "phase": "pre",
+      "clock": "08:28:21",
+      "minute_of_day": 508.35,
+      "duration_ms": 90
+    },
+    {
+      "phase": "pre",
+      "clock": "08:28:51",
+      "minute_of_day": 508.85,
+      "duration_ms": 90
+    },
+    {
+      "phase": "pre",
+      "clock": "08:29:21",
+      "minute_of_day": 509.35,
+      "duration_ms": 90
+    },
+    {
+      "phase": "pre",
+      "clock": "08:29:51",
+      "minute_of_day": 509.85,
+      "duration_ms": 90
+    },
+    {
+      "phase": "pre",
+      "clock": "08:30:21",
+      "minute_of_day": 510.35,
+      "duration_ms": 90
+    },
+    {
+      "phase": "pre",
+      "clock": "08:30:51",
+      "minute_of_day": 510.85,
+      "duration_ms": 90
+    },
+    {
+      "phase": "pre",
+      "clock": "08:31:21",
+      "minute_of_day": 511.35,
+      "duration_ms": 90
+    },
+    {
+      "phase": "pre",
+      "clock": "08:31:51",
+      "minute_of_day": 511.85,
+      "duration_ms": 90
+    },
+    {
+      "phase": "pre",
+      "clock": "08:32:21",
+      "minute_of_day": 512.35,
+      "duration_ms": 90
+    },
+    {
+      "phase": "pre",
+      "clock": "08:32:51",
+      "minute_of_day": 512.85,
+      "duration_ms": 90
+    },
+    {
+      "phase": "pre",
+      "clock": "08:33:21",
+      "minute_of_day": 513.35,
+      "duration_ms": 90
+    },
+    {
+      "phase": "pre",
+      "clock": "08:33:51",
+      "minute_of_day": 513.85,
+      "duration_ms": 90
+    },
+    {
+      "phase": "pre",
+      "clock": "08:34:21",
+      "minute_of_day": 514.35,
+      "duration_ms": 90
+    },
+    {
+      "phase": "pre",
+      "clock": "08:34:51",
+      "minute_of_day": 514.85,
+      "duration_ms": 90
+    },
+    {
+      "phase": "pre",
+      "clock": "08:35:21",
+      "minute_of_day": 515.35,
+      "duration_ms": 90
+    },
+    {
+      "phase": "pre",
+      "clock": "08:35:51",
+      "minute_of_day": 515.85,
+      "duration_ms": 90
+    },
+    {
+      "phase": "pre",
+      "clock": "08:36:21",
+      "minute_of_day": 516.35,
+      "duration_ms": 90
+    },
+    {
+      "phase": "pre",
+      "clock": "08:36:51",
+      "minute_of_day": 516.85,
+      "duration_ms": 90
+    },
+    {
+      "phase": "pre",
+      "clock": "08:37:21",
+      "minute_of_day": 517.35,
+      "duration_ms": 90
+    },
+    {
+      "phase": "pre",
+      "clock": "08:37:51",
+      "minute_of_day": 517.85,
+      "duration_ms": 90
+    },
+    {
+      "phase": "pre",
+      "clock": "08:38:21",
+      "minute_of_day": 518.35,
+      "duration_ms": 90
+    },
+    {
+      "phase": "pre",
+      "clock": "08:38:51",
+      "minute_of_day": 518.85,
+      "duration_ms": 90
+    },
+    {
+      "phase": "pre",
+      "clock": "08:39:21",
+      "minute_of_day": 519.35,
+      "duration_ms": 90
+    },
+    {
+      "phase": "pre",
+      "clock": "08:39:51",
+      "minute_of_day": 519.85,
+      "duration_ms": 90
+    },
+    {
+      "phase": "pre",
+      "clock": "08:40:21",
+      "minute_of_day": 520.35,
+      "duration_ms": 90
+    },
+    {
+      "phase": "pre",
+      "clock": "08:40:51",
+      "minute_of_day": 520.85,
+      "duration_ms": 90
+    },
+    {
+      "phase": "pre",
+      "clock": "08:41:21",
+      "minute_of_day": 521.35,
+      "duration_ms": 90
+    },
+    {
+      "phase": "pre",
+      "clock": "08:41:51",
+      "minute_of_day": 521.85,
+      "duration_ms": 90
+    },
+    {
+      "phase": "pre",
+      "clock": "08:42:21",
+      "minute_of_day": 522.35,
+      "duration_ms": 90
+    },
+    {
+      "phase": "pre",
+      "clock": "08:42:51",
+      "minute_of_day": 522.85,
+      "duration_ms": 90
+    },
+    {
+      "phase": "pre",
+      "clock": "08:43:21",
+      "minute_of_day": 523.35,
+      "duration_ms": 90
+    },
+    {
+      "phase": "pre",
+      "clock": "08:43:51",
+      "minute_of_day": 523.85,
+      "duration_ms": 90
+    },
+    {
+      "phase": "pre",
+      "clock": "08:44:21",
+      "minute_of_day": 524.35,
+      "duration_ms": 90
+    },
+    {
+      "phase": "pre",
+      "clock": "08:44:51",
+      "minute_of_day": 524.85,
+      "duration_ms": 90
+    },
+    {
+      "phase": "pre",
+      "clock": "08:45:21",
+      "minute_of_day": 525.35,
+      "duration_ms": 90
+    },
+    {
+      "phase": "pre",
+      "clock": "08:45:51",
+      "minute_of_day": 525.85,
+      "duration_ms": 90
+    },
+    {
+      "phase": "pre",
+      "clock": "08:46:21",
+      "minute_of_day": 526.35,
+      "duration_ms": 90
+    },
+    {
+      "phase": "pre",
+      "clock": "08:46:51",
+      "minute_of_day": 526.85,
+      "duration_ms": 90
+    },
+    {
+      "phase": "pre",
+      "clock": "08:47:21",
+      "minute_of_day": 527.35,
+      "duration_ms": 90
+    },
+    {
+      "phase": "pre",
+      "clock": "08:47:51",
+      "minute_of_day": 527.85,
+      "duration_ms": 90
+    },
+    {
+      "phase": "pre",
+      "clock": "08:48:21",
+      "minute_of_day": 528.35,
+      "duration_ms": 90
+    },
+    {
+      "phase": "pre",
+      "clock": "08:48:51",
+      "minute_of_day": 528.85,
+      "duration_ms": 90
+    },
+    {
+      "phase": "pre",
+      "clock": "08:49:21",
+      "minute_of_day": 529.35,
+      "duration_ms": 90
+    },
+    {
+      "phase": "pre",
+      "clock": "08:49:51",
+      "minute_of_day": 529.85,
+      "duration_ms": 90
+    },
+    {
+      "phase": "pre",
+      "clock": "08:50:21",
+      "minute_of_day": 530.35,
+      "duration_ms": 90
+    },
+    {
+      "phase": "pre",
+      "clock": "08:50:51",
+      "minute_of_day": 530.85,
+      "duration_ms": 90
+    },
+    {
+      "phase": "pre",
+      "clock": "08:51:21",
+      "minute_of_day": 531.35,
+      "duration_ms": 90
+    },
+    {
+      "phase": "pre",
+      "clock": "08:51:51",
+      "minute_of_day": 531.85,
+      "duration_ms": 90
+    },
+    {
+      "phase": "pre",
+      "clock": "08:52:21",
+      "minute_of_day": 532.35,
+      "duration_ms": 90
+    },
+    {
+      "phase": "pre",
+      "clock": "08:52:51",
+      "minute_of_day": 532.85,
+      "duration_ms": 90
+    },
+    {
+      "phase": "pre",
+      "clock": "08:53:21",
+      "minute_of_day": 533.35,
+      "duration_ms": 90
+    },
+    {
+      "phase": "pre",
+      "clock": "08:53:51",
+      "minute_of_day": 533.85,
+      "duration_ms": 90
+    },
+    {
+      "phase": "pre",
+      "clock": "08:54:21",
+      "minute_of_day": 534.35,
+      "duration_ms": 90
+    },
+    {
+      "phase": "pre",
+      "clock": "08:54:51",
+      "minute_of_day": 534.85,
+      "duration_ms": 90
+    },
+    {
+      "phase": "pre",
+      "clock": "08:55:21",
+      "minute_of_day": 535.35,
+      "duration_ms": 90
+    },
+    {
+      "phase": "pre",
+      "clock": "08:55:51",
+      "minute_of_day": 535.85,
+      "duration_ms": 90
+    },
+    {
+      "phase": "pre",
+      "clock": "08:56:21",
+      "minute_of_day": 536.35,
+      "duration_ms": 90
+    },
+    {
+      "phase": "pre",
+      "clock": "08:56:51",
+      "minute_of_day": 536.85,
+      "duration_ms": 90
+    },
+    {
+      "phase": "pre",
+      "clock": "08:57:21",
+      "minute_of_day": 537.35,
+      "duration_ms": 90
+    },
+    {
+      "phase": "pre",
+      "clock": "08:57:51",
+      "minute_of_day": 537.85,
+      "duration_ms": 90
+    },
+    {
+      "phase": "pre",
+      "clock": "08:58:21",
+      "minute_of_day": 538.35,
+      "duration_ms": 90
+    },
+    {
+      "phase": "pre",
+      "clock": "08:58:51",
+      "minute_of_day": 538.85,
+      "duration_ms": 90
+    },
+    {
+      "phase": "pre",
+      "clock": "08:59:21",
+      "minute_of_day": 539.35,
+      "duration_ms": 90
+    },
+    {
+      "phase": "pre",
+      "clock": "08:59:51",
+      "minute_of_day": 539.85,
+      "duration_ms": 90
+    },
+    {
+      "phase": "pre",
+      "clock": "09:00:21",
+      "minute_of_day": 540.35,
+      "duration_ms": 90
+    },
+    {
+      "phase": "pre",
+      "clock": "09:00:51",
+      "minute_of_day": 540.85,
+      "duration_ms": 90
+    },
+    {
+      "phase": "pre",
+      "clock": "09:01:21",
+      "minute_of_day": 541.35,
+      "duration_ms": 90
+    },
+    {
+      "phase": "pre",
+      "clock": "09:01:51",
+      "minute_of_day": 541.85,
+      "duration_ms": 90
+    },
+    {
+      "phase": "pre",
+      "clock": "09:02:21",
+      "minute_of_day": 542.35,
+      "duration_ms": 90
+    },
+    {
+      "phase": "pre",
+      "clock": "09:02:51",
+      "minute_of_day": 542.85,
+      "duration_ms": 90
+    },
+    {
+      "phase": "pre",
+      "clock": "09:03:21",
+      "minute_of_day": 543.35,
+      "duration_ms": 90
+    },
+    {
+      "phase": "transition",
+      "clock": "09:03:36",
+      "minute_of_day": 543.5968639268,
+      "duration_ms": 50
+    },
+    {
+      "phase": "transition",
+      "clock": "09:04:17",
+      "minute_of_day": 544.2840797230269,
+      "duration_ms": 50
+    },
+    {
+      "phase": "transition",
+      "clock": "09:05:20",
+      "minute_of_day": 545.3315834124215,
+      "duration_ms": 50
+    },
+    {
+      "phase": "transition",
+      "clock": "09:06:40",
+      "minute_of_day": 546.6593110187241,
+      "duration_ms": 50
+    },
+    {
+      "phase": "transition",
+      "clock": "09:08:11",
+      "minute_of_day": 548.1871985656753,
+      "duration_ms": 50
+    },
+    {
+      "phase": "transition",
+      "clock": "09:09:50",
+      "minute_of_day": 549.8351820770158,
+      "duration_ms": 50
+    },
+    {
+      "phase": "transition",
+      "clock": "09:11:31",
+      "minute_of_day": 551.5231975764859,
+      "duration_ms": 50
+    },
+    {
+      "phase": "transition",
+      "clock": "09:13:10",
+      "minute_of_day": 553.1711810878264,
+      "duration_ms": 50
+    },
+    {
+      "phase": "transition",
+      "clock": "09:14:42",
+      "minute_of_day": 554.6990686347776,
+      "duration_ms": 50
+    },
+    {
+      "phase": "transition",
+      "clock": "09:16:02",
+      "minute_of_day": 556.0267962410802,
+      "duration_ms": 50
+    },
+    {
+      "phase": "transition",
+      "clock": "09:17:04",
+      "minute_of_day": 557.0742999304748,
+      "duration_ms": 50
+    },
+    {
+      "phase": "transition",
+      "clock": "09:17:46",
+      "minute_of_day": 557.7615157267018,
+      "duration_ms": 50
+    },
+    {
+      "phase": "post",
+      "clock": "09:18:01",
+      "minute_of_day": 558.0083796535017,
+      "duration_ms": 90
+    },
+    {
+      "phase": "post",
+      "clock": "09:19:49",
+      "minute_of_day": 559.8169673786382,
+      "duration_ms": 90
+    },
+    {
+      "phase": "post",
+      "clock": "09:21:38",
+      "minute_of_day": 561.6255551037747,
+      "duration_ms": 90
+    },
+    {
+      "phase": "post",
+      "clock": "09:23:26",
+      "minute_of_day": 563.434142828911,
+      "duration_ms": 90
+    },
+    {
+      "phase": "post",
+      "clock": "09:25:15",
+      "minute_of_day": 565.2427305540475,
+      "duration_ms": 90
+    },
+    {
+      "phase": "post",
+      "clock": "09:27:03",
+      "minute_of_day": 567.051318279184,
+      "duration_ms": 90
+    },
+    {
+      "phase": "post",
+      "clock": "09:28:52",
+      "minute_of_day": 568.8599060043205,
+      "duration_ms": 90
+    },
+    {
+      "phase": "post",
+      "clock": "09:30:40",
+      "minute_of_day": 570.6684937294569,
+      "duration_ms": 90
+    },
+    {
+      "phase": "post",
+      "clock": "09:32:29",
+      "minute_of_day": 572.4770814545934,
+      "duration_ms": 90
+    },
+    {
+      "phase": "post",
+      "clock": "09:34:17",
+      "minute_of_day": 574.2856691797298,
+      "duration_ms": 90
+    },
+    {
+      "phase": "post",
+      "clock": "09:36:06",
+      "minute_of_day": 576.0942569048663,
+      "duration_ms": 90
+    },
+    {
+      "phase": "post",
+      "clock": "09:37:54",
+      "minute_of_day": 577.9028446300027,
+      "duration_ms": 90
+    },
+    {
+      "phase": "post",
+      "clock": "09:39:43",
+      "minute_of_day": 579.7114323551392,
+      "duration_ms": 90
+    },
+    {
+      "phase": "post",
+      "clock": "09:41:31",
+      "minute_of_day": 581.5200200802757,
+      "duration_ms": 90
+    },
+    {
+      "phase": "post",
+      "clock": "09:43:20",
+      "minute_of_day": 583.3286078054122,
+      "duration_ms": 90
+    },
+    {
+      "phase": "post",
+      "clock": "09:45:08",
+      "minute_of_day": 585.1371955305485,
+      "duration_ms": 90
+    },
+    {
+      "phase": "post",
+      "clock": "09:46:57",
+      "minute_of_day": 586.945783255685,
+      "duration_ms": 90
+    },
+    {
+      "phase": "post",
+      "clock": "09:48:45",
+      "minute_of_day": 588.7543709808215,
+      "duration_ms": 90
+    },
+    {
+      "phase": "post",
+      "clock": "09:50:34",
+      "minute_of_day": 590.562958705958,
+      "duration_ms": 90
+    },
+    {
+      "phase": "post",
+      "clock": "09:52:22",
+      "minute_of_day": 592.3715464310944,
+      "duration_ms": 90
+    },
+    {
+      "phase": "post",
+      "clock": "09:54:11",
+      "minute_of_day": 594.1801341562309,
+      "duration_ms": 90
+    },
+    {
+      "phase": "post",
+      "clock": "09:55:59",
+      "minute_of_day": 595.9887218813673,
+      "duration_ms": 90
+    },
+    {
+      "phase": "post",
+      "clock": "09:57:48",
+      "minute_of_day": 597.7973096065037,
+      "duration_ms": 90
+    },
+    {
+      "phase": "post",
+      "clock": "09:59:36",
+      "minute_of_day": 599.6058973316402,
+      "duration_ms": 90
+    },
+    {
+      "phase": "post",
+      "clock": "10:01:25",
+      "minute_of_day": 601.4144850567767,
+      "duration_ms": 90
+    },
+    {
+      "phase": "post",
+      "clock": "10:03:13",
+      "minute_of_day": 603.2230727819132,
+      "duration_ms": 90
+    },
+    {
+      "phase": "post",
+      "clock": "10:05:02",
+      "minute_of_day": 605.0316605070497,
+      "duration_ms": 90
+    },
+    {
+      "phase": "post",
+      "clock": "10:06:50",
+      "minute_of_day": 606.840248232186,
+      "duration_ms": 90
+    },
+    {
+      "phase": "post",
+      "clock": "10:08:39",
+      "minute_of_day": 608.6488359573225,
+      "duration_ms": 90
+    },
+    {
+      "phase": "post",
+      "clock": "10:10:27",
+      "minute_of_day": 610.457423682459,
+      "duration_ms": 90
+    },
+    {
+      "phase": "post",
+      "clock": "10:12:16",
+      "minute_of_day": 612.2660114075954,
+      "duration_ms": 90
+    },
+    {
+      "phase": "post",
+      "clock": "10:14:04",
+      "minute_of_day": 614.0745991327319,
+      "duration_ms": 90
+    },
+    {
+      "phase": "post",
+      "clock": "10:15:53",
+      "minute_of_day": 615.8831868578684,
+      "duration_ms": 90
+    },
+    {
+      "phase": "post",
+      "clock": "10:17:42",
+      "minute_of_day": 617.6917745830048,
+      "duration_ms": 90
+    },
+    {
+      "phase": "post",
+      "clock": "10:19:30",
+      "minute_of_day": 619.5003623081412,
+      "duration_ms": 90
+    },
+    {
+      "phase": "post",
+      "clock": "10:21:19",
+      "minute_of_day": 621.3089500332777,
+      "duration_ms": 90
+    },
+    {
+      "phase": "post",
+      "clock": "10:23:07",
+      "minute_of_day": 623.1175377584142,
+      "duration_ms": 90
+    },
+    {
+      "phase": "post",
+      "clock": "10:24:56",
+      "minute_of_day": 624.9261254835507,
+      "duration_ms": 90
+    },
+    {
+      "phase": "post",
+      "clock": "10:26:44",
+      "minute_of_day": 626.734713208687,
+      "duration_ms": 90
+    },
+    {
+      "phase": "post",
+      "clock": "10:28:33",
+      "minute_of_day": 628.5433009338235,
+      "duration_ms": 90
+    },
+    {
+      "phase": "post",
+      "clock": "10:30:21",
+      "minute_of_day": 630.35188865896,
+      "duration_ms": 90
+    },
+    {
+      "phase": "post",
+      "clock": "10:32:10",
+      "minute_of_day": 632.1604763840965,
+      "duration_ms": 90
+    },
+    {
+      "phase": "post",
+      "clock": "10:33:58",
+      "minute_of_day": 633.9690641092329,
+      "duration_ms": 90
+    },
+    {
+      "phase": "post",
+      "clock": "10:35:47",
+      "minute_of_day": 635.7776518343694,
+      "duration_ms": 90
+    },
+    {
+      "phase": "post",
+      "clock": "10:37:35",
+      "minute_of_day": 637.5862395595059,
+      "duration_ms": 90
+    },
+    {
+      "phase": "post",
+      "clock": "10:39:24",
+      "minute_of_day": 639.3948272846422,
+      "duration_ms": 90
+    },
+    {
+      "phase": "post",
+      "clock": "10:41:12",
+      "minute_of_day": 641.2034150097787,
+      "duration_ms": 90
+    },
+    {
+      "phase": "post",
+      "clock": "10:43:01",
+      "minute_of_day": 643.0120027349152,
+      "duration_ms": 90
+    },
+    {
+      "phase": "post",
+      "clock": "10:44:49",
+      "minute_of_day": 644.8205904600517,
+      "duration_ms": 90
+    },
+    {
+      "phase": "post",
+      "clock": "10:46:38",
+      "minute_of_day": 646.6291781851882,
+      "duration_ms": 90
+    },
+    {
+      "phase": "post",
+      "clock": "10:48:26",
+      "minute_of_day": 648.4377659103245,
+      "duration_ms": 90
+    },
+    {
+      "phase": "post",
+      "clock": "10:50:15",
+      "minute_of_day": 650.246353635461,
+      "duration_ms": 90
+    },
+    {
+      "phase": "post",
+      "clock": "10:52:03",
+      "minute_of_day": 652.0549413605975,
+      "duration_ms": 90
+    },
+    {
+      "phase": "post",
+      "clock": "10:53:52",
+      "minute_of_day": 653.863529085734,
+      "duration_ms": 90
+    },
+    {
+      "phase": "post",
+      "clock": "10:55:40",
+      "minute_of_day": 655.6721168108704,
+      "duration_ms": 90
+    },
+    {
+      "phase": "post",
+      "clock": "10:57:29",
+      "minute_of_day": 657.4807045360069,
+      "duration_ms": 90
+    },
+    {
+      "phase": "post",
+      "clock": "10:59:17",
+      "minute_of_day": 659.2892922611434,
+      "duration_ms": 90
+    },
+    {
+      "phase": "post",
+      "clock": "11:01:06",
+      "minute_of_day": 661.0978799862797,
+      "duration_ms": 90
+    },
+    {
+      "phase": "post",
+      "clock": "11:02:54",
+      "minute_of_day": 662.9064677114162,
+      "duration_ms": 1800
+    }
+  ],
+  "n": 147,
+  "dimensions": {
+    "desktop": [
+      1600,
+      1000
+    ],
+    "mobile": [
+      840,
+      1740
+    ]
+  }
+}

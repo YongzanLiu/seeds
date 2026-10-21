@@ -1,0 +1,147 @@
+[
+  {
+    "id": "principal-investigator",
+    "title": "Principal Investigator",
+    "role": "Principal Investigator",
+    "layout": "pi",
+    "placeholder_count": 1,
+    "members": [
+      {
+        "name": "Yongzan Liu",
+        "image": "images/team/yongzan-liu-2026.png",
+        "description": "Professor in Petroleum Engineering",
+        "affiliations": [
+          "State Key Laboratory of Deep Oil and Gas",
+          "School of Petroleum Engineering",
+          "China University of Petroleum (East China)"
+        ],
+        "url": "/team/yongzan-liu/",
+        "email": "liuyongzan@upc.edu.cn",
+        "google_scholar": "https://scholar.google.com/citations?hl=en&user=RgbVT7cAAAAJ",
+        "linkedin": "https://www.linkedin.com/in/yongzan-liu-a52a6793/",
+        "university_profile": "https://pe.upc.edu.cn/2025/0226/c20540a451271/page.htm"
+      }
+    ]
+  },
+  {
+    "id": "phd-students",
+    "title": "PhD Students",
+    "role": "PhD Student",
+    "layout": "grid",
+    "placeholder_count": 3,
+    "members": [
+      {
+        "name": "Wenyu Wang",
+        "image": "images/team/wenyu-wang.jpg",
+        "start_year": 2025
+      },
+      {
+        "name": "Kuan Yang",
+        "image": "images/team/kuan-yang.jpg",
+        "portrait_position": "50% 50%",
+        "portrait_fit": "contain",
+        "start_year": 2026
+      },
+      {
+        "name": "Jinlong Cao",
+        "image": "images/team/jinlong-cao.png",
+        "portrait_position": "50% 20%",
+        "start_year": 2026
+      }
+    ]
+  },
+  {
+    "id": "masters-students",
+    "title": "Master's Students",
+    "role": "Master's Student",
+    "layout": "grid",
+    "placeholder_count": 3,
+    "members": [
+      {
+        "name": "Yiming Liu",
+        "image": "images/team/yiming-liu.png",
+        "portrait_position": "50% 20%",
+        "start_year": 2025
+      },
+      {
+        "name": "Enxiang Chen",
+        "image": "images/team/enxiang-chen.jpg",
+        "portrait_position": "50% 10%",
+        "start_year": 2026
+      },
+      {
+        "name": "Xu Yang",
+        "image": "images/team/xu-yang.jpg",
+        "portrait_position": "50% 10%",
+        "start_year": 2026
+      },
+      {
+        "name": "Dengxu Xue",
+        "image": "images/team/dengxu-xue-eye-level-v2.png",
+        "portrait_position": "50% 50%",
+        "portrait_fit": "contain",
+        "portrait_scale": 1.12,
+        "start_year": 2026
+      },
+      {
+        "name": "Haonan Yu",
+        "image": "images/team/haonan-yu.jpg",
+        "portrait_position": "50% 20%",
+        "start_year": 2026
+      },
+      {
+        "name": "Yangui Hu",
+        "image": "images/team/yangui-hu.jpg",
+        "portrait_position": "50% 20%",
+        "start_year": 2026
+      }
+    ]
+  },
+  {
+    "id": "academic-collaborators",
+    "title": "Academic Collaborators",
+    "role": "Academic Collaborator",
+    "layout": "grid",
+    "placeholder_count": 3,
+    "members": [
+      {
+        "name": "Tiankui Guo",
+        "image": "images/team/tiankui-guo.png",
+        "portrait_position": "50% 0%",
+        "description": "Professor in Petroleum Engineering",
+        "affiliation": "China University of Petroleum (East China)"
+      },
+      {
+        "name": "George Moridis",
+        "image": "images/team/george-moridis.png",
+        "portrait_position": "50% 0%",
+        "description": "Senior Scientist",
+        "affiliation": "Lawrence Berkeley National Laboratory"
+      },
+      {
+        "name": "Juliana Y. Leung",
+        "image": "images/team/juliana-y-leung.png",
+        "portrait_position": "50% 0%",
+        "portrait_scale": 1.5,
+        "portrait_origin": "50% 0%",
+        "description": "Professor in Petroleum Engineering",
+        "affiliation": "University of Alberta"
+      },
+      {
+        "name": "Lijun Liu",
+        "image": "images/team/lijun-liu.png",
+        "portrait_position": "50% 0%",
+        "description": "Professor in Petroleum Engineering",
+        "affiliation": "Chengdu University of Technology"
+      },
+      {
+        "name": "Ziming Xu",
+        "image": "images/team/ziming-xu.jpg",
+        "portrait_position": "50% 50%",
+        "portrait_fit": "contain",
+        "description": "Senior Research Engineer",
+        "affiliation": "SINOPEC Oil Exploration & Development Research Institute"
+      }
+    ]
+  }
+]

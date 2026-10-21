@@ -1,0 +1,62 @@
+{% assign member = include.member %}
+{% assign name_tag = include.heading_tag | default: "h3" %}
+
+<article class="team-profile{% if include.layout == 'pi' %} team-profile-pi{% endif %}{% if include.placeholder %} team-profile-placeholder{% endif %}">
+  <div class="team-profile-portrait{% if member.portrait_fit == 'contain' and include.placeholder != true %} team-profile-portrait-contained{% endif %}"{% if member.portrait_fit == 'contain' and include.placeholder != true %} style="background-image: url('{{ member.image | relative_url | uri_escape }}');"{% endif %}>
+    {% if member.image and include.placeholder != true %}
+      <img src="{{ member.image | relative_url | uri_escape }}" alt="Portrait of {{ member.name | escape }}"{% if member.portrait_position or member.portrait_scale %} style="{% if member.portrait_position %}object-position: {{ member.portrait_position | escape }};{% endif %}{% if member.portrait_scale %}transform: scale({{ member.portrait_scale | escape }}); transform-origin: {{ member.portrait_origin | default: "50% 38%" | escape }};{% endif %}"{% endif %} loading="lazy" decoding="async">
+    {% else %}
+      <svg viewBox="0 0 240 240" aria-hidden="true" focusable="false">
+        <circle cx="120" cy="87" r="36" />
+        <path d="M48 228v-24c0-39 32-65 72-65s72 26 72 65v24Z" />
+      </svg>
+    {% endif %}
+  </div>
+  <div class="team-profile-copy">
+    {% if include.placeholder %}
+      <p class="team-profile-name">Profile coming soon</p>
+    {% else %}
+      <{{ name_tag }} class="team-profile-name">
+        {% if member.url and include.link_name != false %}<a href="{{ member.url | relative_url | uri_escape }}">{{ member.name | escape }}</a>{% else %}{{ member.name | escape }}{% endif %}
+      </{{ name_tag }}>
+    {% endif %}
+    <p class="team-profile-role">{{ member.description | default: include.role | escape }}{% if member.start_year and include.placeholder != true %} ({{ member.start_year | escape }}&ndash;Present){% endif %}</p>
+    {% if member.affiliations and include.placeholder != true %}
+      {% for affiliation in member.affiliations %}
+        <p class="team-profile-affiliation">{{ affiliation | escape }}</p>
+      {% endfor %}
+    {% elsif member.affiliation and include.placeholder != true %}
+      <p class="team-profile-affiliation">{{ member.affiliation | escape }}</p>
+    {% endif %}
+    {% if member.bio and include.placeholder != true %}
+      <p class="team-profile-bio">{{ member.bio | escape }}</p>
+    {% endif %}
+    {% if include.show_contacts and include.placeholder != true %}
+      {% if member.email or member.google_scholar or member.linkedin %}
+        <div class="team-profile-contacts">
+          {% if member.email %}
+            <a class="team-profile-email" href="mailto:{{ member.email | escape }}">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" aria-hidden="true" focusable="false">
+                <rect x="3" y="5" width="18" height="14" rx="2" />
+                <path d="m3 6 9 7 9-7" />
+              </svg>
+              <span>{{ member.email | escape }}</span>
+            </a>
+          {% endif %}
+          {% if member.google_scholar %}
+            <span class="team-profile-scholar">
+              {% if member.email %}<span class="team-contact-separator" aria-hidden="true">&middot;</span>{% endif %}
+              <a href="{{ member.google_scholar | escape }}">Google Scholar</a>
+            </span>
+          {% endif %}
+          {% if member.linkedin %}
+            <span class="team-profile-linkedin">
+              {% if member.email or member.google_scholar %}<span class="team-contact-separator" aria-hidden="true">&middot;</span>{% endif %}
+              <a href="{{ member.linkedin | escape }}">LinkedIn</a>
+            </span>
+          {% endif %}
+        </div>
+      {% endif %}
+    {% endif %}
+  </div>
+</article>

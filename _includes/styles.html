@@ -12,7 +12,7 @@
 {% for style in styles %}
   {% unless style.url contains ".map" %}
     <link
-      href="{{ style.path | replace: ".scss", ".css" | relative_url }}"
+      href="{{ style.path | replace: ".scss", ".css" | relative_url }}{% if style.path contains '/anchor.scss' %}?v={{ site.time | date: '%s' }}{% endif %}"
       rel="stylesheet"
     />
   {% endunless %}

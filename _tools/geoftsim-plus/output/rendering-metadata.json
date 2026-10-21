@@ -1,0 +1,740 @@
+{
+  "projection": "Orthographic, azimuth -84\u00b0, elevation 55\u00b0; all coordinates in metres.",
+  "exposed_section_z_m": 140.0,
+  "pressure_colorbar_MPa": [
+    10,
+    30
+  ],
+  "colormap": "turbo",
+  "matrix_display_sampling": "Linear interpolation of the 3D finite-volume field onto a refined display surface; no smoothing of the solved data.",
+  "fracture_display": "Prescribed panels from z=140 to 200 m; opacity is clamp(1.7*(30-p)/20,0,1), purely for gradual visibility. Geometry never propagates.",
+  "preview_only": false,
+  "sampled_visibility": [
+    {
+      "day": 0.0,
+      "mean_fracture_opacity": 0.0,
+      "fracture_pressure_min_MPa": 30.0,
+      "fracture_pressure_max_MPa": 30.0
+    },
+    {
+      "day": 1.0,
+      "mean_fracture_opacity": 0.04926071110696778,
+      "fracture_pressure_min_MPa": 22.775419235229492,
+      "fracture_pressure_max_MPa": 30.0
+    },
+    {
+      "day": 2.0,
+      "mean_fracture_opacity": 0.08775596349432911,
+      "fracture_pressure_min_MPa": 19.84790802001953,
+      "fracture_pressure_max_MPa": 30.0
+    },
+    {
+      "day": 3.0,
+      "mean_fracture_opacity": 0.1151882423107157,
+      "fracture_pressure_min_MPa": 18.37571144104004,
+      "fracture_pressure_max_MPa": 30.0
+    },
+    {
+      "day": 4.0,
+      "mean_fracture_opacity": 0.134633322172763,
+      "fracture_pressure_min_MPa": 17.498830795288086,
+      "fracture_pressure_max_MPa": 30.0
+    },
+    {
+      "day": 5.0,
+      "mean_fracture_opacity": 0.1488842307701963,
+      "fracture_pressure_min_MPa": 16.920515060424805,
+      "fracture_pressure_max_MPa": 30.0
+    },
+    {
+      "day": 6.0,
+      "mean_fracture_opacity": 0.15969957098928103,
+      "fracture_pressure_min_MPa": 16.510398864746094,
+      "fracture_pressure_max_MPa": 30.0
+    },
+    {
+      "day": 7.0,
+      "mean_fracture_opacity": 0.1679096108756934,
+      "fracture_pressure_min_MPa": 16.202131271362305,
+      "fracture_pressure_max_MPa": 30.0
+    },
+    {
+      "day": 8.0,
+      "mean_fracture_opacity": 0.17462353894800664,
+      "fracture_pressure_min_MPa": 15.95898723602295,
+      "fracture_pressure_max_MPa": 30.0
+    },
+    {
+      "day": 9.0,
+      "mean_fracture_opacity": 0.18023042938963243,
+      "fracture_pressure_min_MPa": 15.75947093963623,
+      "fracture_pressure_max_MPa": 30.0
+    },
+    {
+      "day": 10.0,
+      "mean_fracture_opacity": 0.1849880278929812,
+      "fracture_pressure_min_MPa": 15.590446472167969,
+      "fracture_pressure_max_MPa": 30.0
+    },
+    {
+      "day": 11.0,
+      "mean_fracture_opacity": 0.18922398364830673,
+      "fracture_pressure_min_MPa": 15.443583488464355,
+      "fracture_pressure_max_MPa": 30.0
+    },
+    {
+      "day": 12.0,
+      "mean_fracture_opacity": 0.19300708656048857,
+      "fracture_pressure_min_MPa": 15.313419342041016,
+      "fracture_pressure_max_MPa": 30.0
+    },
+    {
+      "day": 13.0,
+      "mean_fracture_opacity": 0.19642576247556104,
+      "fracture_pressure_min_MPa": 15.196252822875977,
+      "fracture_pressure_max_MPa": 30.0
+    },
+    {
+      "day": 14.0,
+      "mean_fracture_opacity": 0.19961262333024407,
+      "fracture_pressure_min_MPa": 15.089499473571777,
+      "fracture_pressure_max_MPa": 30.0
+    },
+    {
+      "day": 15.0,
+      "mean_fracture_opacity": 0.20260289526477301,
+      "fracture_pressure_min_MPa": 14.991301536560059,
+      "fracture_pressure_max_MPa": 30.0
+    },
+    {
+      "day": 16.0,
+      "mean_fracture_opacity": 0.2054236377637411,
+      "fracture_pressure_min_MPa": 14.900283813476562,
+      "fracture_pressure_max_MPa": 30.0
+    },
+    {
+      "day": 17.0,
+      "mean_fracture_opacity": 0.20809606014658086,
+      "fracture_pressure_min_MPa": 14.815400123596191,
+      "fracture_pressure_max_MPa": 30.0
+    },
+    {
+      "day": 18.0,
+      "mean_fracture_opacity": 0.21063708951792767,
+      "fracture_pressure_min_MPa": 14.735838890075684,
+      "fracture_pressure_max_MPa": 30.0
+    },
+    {
+      "day": 19.0,
+      "mean_fracture_opacity": 0.21299885331150592,
+      "fracture_pressure_min_MPa": 14.660950660705566,
+      "fracture_pressure_max_MPa": 30.0
+    },
+    {
+      "day": 20.0,
+      "mean_fracture_opacity": 0.21522293160461478,
+      "fracture_pressure_min_MPa": 14.590209007263184,
+      "fracture_pressure_max_MPa": 30.0
+    },
+    {
+      "day": 21.0,
+      "mean_fracture_opacity": 0.2236259169676549,
+      "fracture_pressure_min_MPa": 14.52318000793457,
+      "fracture_pressure_max_MPa": 30.0
+    },
+    {
+      "day": 22.0,
+      "mean_fracture_opacity": 0.23365548826734892,
+      "fracture_pressure_min_MPa": 14.45949649810791,
+      "fracture_pressure_max_MPa": 30.0
+    },
+    {
+      "day": 23.0,
+      "mean_fracture_opacity": 0.24458190239965916,
+      "fracture_pressure_min_MPa": 14.398846626281738,
+      "fracture_pressure_max_MPa": 30.0
+    },
+    {
+      "day": 24.0,
+      "mean_fracture_opacity": 0.25595070458820596,
+      "fracture_pressure_min_MPa": 14.340963363647461,
+      "fracture_pressure_max_MPa": 30.0
+    },
+    {
+      "day": 25.0,
+      "mean_fracture_opacity": 0.2673960297506085,
+      "fracture_pressure_min_MPa": 14.285613059997559,
+      "fracture_pressure_max_MPa": 30.0
+    },
+    {
+      "day": 26.0,
+      "mean_fracture_opacity": 0.27866692193287756,
+      "fracture_pressure_min_MPa": 14.232590675354004,
+      "fracture_pressure_max_MPa": 30.0
+    },
+    {
+      "day": 27.0,
+      "mean_fracture_opacity": 0.2895943560602329,
+      "fracture_pressure_min_MPa": 14.181716918945312,
+      "fracture_pressure_max_MPa": 30.0
+    },
+    {
+      "day": 28.0,
+      "mean_fracture_opacity": 0.3001478163339838,
+      "fracture_pressure_min_MPa": 14.132831573486328,
+      "fracture_pressure_max_MPa": 30.0
+    },
+    {
+      "day": 29.0,
+      "mean_fracture_opacity": 0.31030400199783625,
+      "fracture_pressure_min_MPa": 14.085790634155273,
+      "fracture_pressure_max_MPa": 30.0
+    },
+    {
+      "day": 30.0,
+      "mean_fracture_opacity": 0.3200469836336641,
+      "fracture_pressure_min_MPa": 14.040467262268066,
+      "fracture_pressure_max_MPa": 30.0
+    },
+    {
+      "day": 31.0,
+      "mean_fracture_opacity": 0.32937802236104746,
+      "fracture_pressure_min_MPa": 13.996746063232422,
+      "fracture_pressure_max_MPa": 30.0
+    },
+    {
+      "day": 32.0,
+      "mean_fracture_opacity": 0.3383086959213735,
+      "fracture_pressure_min_MPa": 13.954521179199219,
+      "fracture_pressure_max_MPa": 30.0
+    },
+    {
+      "day": 33.0,
+      "mean_fracture_opacity": 0.34685640206042023,
+      "fracture_pressure_min_MPa": 13.913700103759766,
+      "fracture_pressure_max_MPa": 30.0
+    },
+    {
+      "day": 34.0,
+      "mean_fracture_opacity": 0.3549940758144733,
+      "fracture_pressure_min_MPa": 13.87419605255127,
+      "fracture_pressure_max_MPa": 30.0
+    },
+    {
+      "day": 35.0,
+      "mean_fracture_opacity": 0.3627770873893987,
+      "fracture_pressure_min_MPa": 13.835930824279785,
+      "fracture_pressure_max_MPa": 30.0
+    },
+    {
+      "day": 36.0,
+      "mean_fracture_opacity": 0.3702323063951997,
+      "fracture_pressure_min_MPa": 13.798832893371582,
+      "fracture_pressure_max_MPa": 30.0
+    },
+    {
+      "day": 37.0,
+      "mean_fracture_opacity": 0.3773472428936319,
+      "fracture_pressure_min_MPa": 13.762838363647461,
+      "fracture_pressure_max_MPa": 30.0
+    },
+    {
+      "day": 38.0,
+      "mean_fracture_opacity": 0.3841393556177002,
+      "fracture_pressure_min_MPa": 13.727885246276855,
+      "fracture_pressure_max_MPa": 30.0
+    },
+    {
+      "day": 39.0,
+      "mean_fracture_opacity": 0.390672919266822,
+      "fracture_pressure_min_MPa": 13.69391918182373,
+      "fracture_pressure_max_MPa": 30.0
+    },
+    {
+      "day": 40.0,
+      "mean_fracture_opacity": 0.39694409835379557,
+      "fracture_pressure_min_MPa": 13.660889625549316,
+      "fracture_pressure_max_MPa": 30.0
+    },
+    {
+      "day": 41.0,
+      "mean_fracture_opacity": 0.45239605469296323,
+      "fracture_pressure_min_MPa": 13.628748893737793,
+      "fracture_pressure_max_MPa": 29.974945068359375
+    },
+    {
+      "day": 42.0,
+      "mean_fracture_opacity": 0.500679153558571,
+      "fracture_pressure_min_MPa": 13.597453117370605,
+      "fracture_pressure_max_MPa": 29.894363403320312
+    },
+    {
+      "day": 43.0,
+      "mean_fracture_opacity": 0.5395848307745768,
+      "fracture_pressure_min_MPa": 13.566963195800781,
+      "fracture_pressure_max_MPa": 29.74437713623047
+    },
+    {
+      "day": 44.0,
+      "mean_fracture_opacity": 0.5708515272568592,
+      "fracture_pressure_min_MPa": 13.537240982055664,
+      "fracture_pressure_max_MPa": 29.529865264892578
+    },
+    {
+      "day": 45.0,
+      "mean_fracture_opacity": 0.5967911537672645,
+      "fracture_pressure_min_MPa": 13.508252143859863,
+      "fracture_pressure_max_MPa": 29.26609992980957
+    },
+    {
+      "day": 46.0,
+      "mean_fracture_opacity": 0.6186637908629945,
+      "fracture_pressure_min_MPa": 13.479963302612305,
+      "fracture_pressure_max_MPa": 28.970542907714844
+    },
+    {
+      "day": 47.0,
+      "mean_fracture_opacity": 0.638091403747752,
+      "fracture_pressure_min_MPa": 13.45234489440918,
+      "fracture_pressure_max_MPa": 28.658279418945312
+    },
+    {
+      "day": 48.0,
+      "mean_fracture_opacity": 0.6554114076075276,
+      "fracture_pressure_min_MPa": 13.425368309020996,
+      "fracture_pressure_max_MPa": 28.340545654296875
+    },
+    {
+      "day": 49.0,
+      "mean_fracture_opacity": 0.6712287195359719,
+      "fracture_pressure_min_MPa": 13.399007797241211,
+      "fracture_pressure_max_MPa": 28.0249080657959
+    },
+    {
+      "day": 50.0,
+      "mean_fracture_opacity": 0.685819975186869,
+      "fracture_pressure_min_MPa": 13.373236656188965,
+      "fracture_pressure_max_MPa": 27.716035842895508
+    },
+    {
+      "day": 51.0,
+      "mean_fracture_opacity": 0.6995721430712959,
+      "fracture_pressure_min_MPa": 13.34803295135498,
+      "fracture_pressure_max_MPa": 27.416549682617188
+    },
+    {
+      "day": 52.0,
+      "mean_fracture_opacity": 0.7125923049818609,
+      "fracture_pressure_min_MPa": 13.323373794555664,
+      "fracture_pressure_max_MPa": 27.12771224975586
+    },
+    {
+      "day": 53.0,
+      "mean_fracture_opacity": 0.7249497765118313,
+      "fracture_pressure_min_MPa": 13.299240112304688,
+      "fracture_pressure_max_MPa": 26.849943161010742
+    },
+    {
+      "day": 54.0,
+      "mean_fracture_opacity": 0.7365991322650123,
+      "fracture_pressure_min_MPa": 13.27561092376709,
+      "fracture_pressure_max_MPa": 26.58315658569336
+    },
+    {
+      "day": 55.0,
+      "mean_fracture_opacity": 0.7475774173474393,
+      "fracture_pressure_min_MPa": 13.25246810913086,
+      "fracture_pressure_max_MPa": 26.32699203491211
+    },
+    {
+      "day": 56.0,
+      "mean_fracture_opacity": 0.7580755412373755,
+      "fracture_pressure_min_MPa": 13.229793548583984,
+      "fracture_pressure_max_MPa": 26.080949783325195
+    },
+    {
+      "day": 57.0,
+      "mean_fracture_opacity": 0.7680235836923737,
+      "fracture_pressure_min_MPa": 13.207572937011719,
+      "fracture_pressure_max_MPa": 25.84447479248047
+    },
+    {
+      "day": 58.0,
+      "mean_fracture_opacity": 0.7774022689594846,
+      "fracture_pressure_min_MPa": 13.185789108276367,
+      "fracture_pressure_max_MPa": 25.617006301879883
+    },
+    {
+      "day": 59.0,
+      "mean_fracture_opacity": 0.7863985167950699,
+      "fracture_pressure_min_MPa": 13.164426803588867,
+      "fracture_pressure_max_MPa": 25.39800453186035
+    },
+    {
+      "day": 60.0,
+      "mean_fracture_opacity": 0.7950763487324273,
+      "fracture_pressure_min_MPa": 13.143472671508789,
+      "fracture_pressure_max_MPa": 25.18695831298828
+    },
+    {
+      "day": 61.0,
+      "mean_fracture_opacity": 0.803456240912893,
+      "fracture_pressure_min_MPa": 13.12291431427002,
+      "fracture_pressure_max_MPa": 24.983396530151367
+    },
+    {
+      "day": 62.0,
+      "mean_fracture_opacity": 0.8114973728599417,
+      "fracture_pressure_min_MPa": 13.102737426757812,
+      "fracture_pressure_max_MPa": 24.786880493164062
+    },
+    {
+      "day": 63.0,
+      "mean_fracture_opacity": 0.8192521608162582,
+      "fracture_pressure_min_MPa": 13.082930564880371,
+      "fracture_pressure_max_MPa": 24.59701156616211
+    },
+    {
+      "day": 64.0,
+      "mean_fracture_opacity": 0.8267609413546795,
+      "fracture_pressure_min_MPa": 13.063482284545898,
+      "fracture_pressure_max_MPa": 24.413421630859375
+    },
+    {
+      "day": 65.0,
+      "mean_fracture_opacity": 0.834037175293231,
+      "fracture_pressure_min_MPa": 13.044382095336914,
+      "fracture_pressure_max_MPa": 24.235774993896484
+    },
+    {
+      "day": 66.0,
+      "mean_fracture_opacity": 0.8410612291486812,
+      "fracture_pressure_min_MPa": 13.025618553161621,
+      "fracture_pressure_max_MPa": 24.063762664794922
+    },
+    {
+      "day": 67.0,
+      "mean_fracture_opacity": 0.847830910658099,
+      "fracture_pressure_min_MPa": 13.007181167602539,
+      "fracture_pressure_max_MPa": 23.897098541259766
+    },
+    {
+      "day": 68.0,
+      "mean_fracture_opacity": 0.8544038532116159,
+      "fracture_pressure_min_MPa": 12.989062309265137,
+      "fracture_pressure_max_MPa": 23.735515594482422
+    },
+    {
+      "day": 69.0,
+      "mean_fracture_opacity": 0.8606575465284262,
+      "fracture_pressure_min_MPa": 12.971251487731934,
+      "fracture_pressure_max_MPa": 23.578773498535156
+    },
+    {
+      "day": 70.0,
+      "mean_fracture_opacity": 0.8665400651312366,
+      "fracture_pressure_min_MPa": 12.953741073608398,
+      "fracture_pressure_max_MPa": 23.4266414642334
+    },
+    {
+      "day": 71.0,
+      "mean_fracture_opacity": 0.872258790989512,
+      "fracture_pressure_min_MPa": 12.93652057647705,
+      "fracture_pressure_max_MPa": 23.278907775878906
+    },
+    {
+      "day": 72.0,
+      "mean_fracture_opacity": 0.8778241102638114,
+      "fracture_pressure_min_MPa": 12.919583320617676,
+      "fracture_pressure_max_MPa": 23.135377883911133
+    },
+    {
+      "day": 73.0,
+      "mean_fracture_opacity": 0.8832035146628049,
+      "fracture_pressure_min_MPa": 12.902921676635742,
+      "fracture_pressure_max_MPa": 22.99586296081543
+    },
+    {
+      "day": 74.0,
+      "mean_fracture_opacity": 0.8883665814432492,
+      "fracture_pressure_min_MPa": 12.886528015136719,
+      "fracture_pressure_max_MPa": 22.860193252563477
+    },
+    {
+      "day": 75.0,
+      "mean_fracture_opacity": 0.8933644962474653,
+      "fracture_pressure_min_MPa": 12.870394706726074,
+      "fracture_pressure_max_MPa": 22.728200912475586
+    },
+    {
+      "day": 76.0,
+      "mean_fracture_opacity": 0.8982358353654134,
+      "fracture_pressure_min_MPa": 12.85451602935791,
+      "fracture_pressure_max_MPa": 22.59973907470703
+    },
+    {
+      "day": 77.0,
+      "mean_fracture_opacity": 0.9029757392775152,
+      "fracture_pressure_min_MPa": 12.838884353637695,
+      "fracture_pressure_max_MPa": 22.47465705871582
+    },
+    {
+      "day": 78.0,
+      "mean_fracture_opacity": 0.9074635677730915,
+      "fracture_pressure_min_MPa": 12.823493957519531,
+      "fracture_pressure_max_MPa": 22.35282325744629
+    },
+    {
+      "day": 79.0,
+      "mean_fracture_opacity": 0.9118100443656502,
+      "fracture_pressure_min_MPa": 12.808337211608887,
+      "fracture_pressure_max_MPa": 22.234106063842773
+    },
+    {
+      "day": 80.0,
+      "mean_fracture_opacity": 0.9160153222657561,
+      "fracture_pressure_min_MPa": 12.793410301208496,
+      "fracture_pressure_max_MPa": 22.118385314941406
+    },
+    {
+      "day": 81.0,
+      "mean_fracture_opacity": 0.9201220370240227,
+      "fracture_pressure_min_MPa": 12.778706550598145,
+      "fracture_pressure_max_MPa": 22.005544662475586
+    },
+    {
+      "day": 82.0,
+      "mean_fracture_opacity": 0.924051441073008,
+      "fracture_pressure_min_MPa": 12.76422119140625,
+      "fracture_pressure_max_MPa": 21.895477294921875
+    },
+    {
+      "day": 83.0,
+      "mean_fracture_opacity": 0.9278066313963166,
+      "fracture_pressure_min_MPa": 12.749947547912598,
+      "fracture_pressure_max_MPa": 21.788076400756836
+    },
+    {
+      "day": 84.0,
+      "mean_fracture_opacity": 0.9314476642821663,
+      "fracture_pressure_min_MPa": 12.735881805419922,
+      "fracture_pressure_max_MPa": 21.683244705200195
+    },
+    {
+      "day": 85.0,
+      "mean_fracture_opacity": 0.9349722661513233,
+      "fracture_pressure_min_MPa": 12.722018241882324,
+      "fracture_pressure_max_MPa": 21.580888748168945
+    },
+    {
+      "day": 86.0,
+      "mean_fracture_opacity": 0.9383517825316727,
+      "fracture_pressure_min_MPa": 12.708353042602539,
+      "fracture_pressure_max_MPa": 21.480920791625977
+    },
+    {
+      "day": 87.0,
+      "mean_fracture_opacity": 0.941507574004406,
+      "fracture_pressure_min_MPa": 12.694880485534668,
+      "fracture_pressure_max_MPa": 21.383255004882812
+    },
+    {
+      "day": 88.0,
+      "mean_fracture_opacity": 0.9445405399676451,
+      "fracture_pressure_min_MPa": 12.681596755981445,
+      "fracture_pressure_max_MPa": 21.287809371948242
+    },
+    {
+      "day": 89.0,
+      "mean_fracture_opacity": 0.9474068097642198,
+      "fracture_pressure_min_MPa": 12.668497085571289,
+      "fracture_pressure_max_MPa": 21.194509506225586
+    },
+    {
+      "day": 90.0,
+      "mean_fracture_opacity": 0.9501315773147898,
+      "fracture_pressure_min_MPa": 12.65557861328125,
+      "fracture_pressure_max_MPa": 21.103281021118164
+    },
+    {
+      "day": 91.0,
+      "mean_fracture_opacity": 0.9526421861959896,
+      "fracture_pressure_min_MPa": 12.64283561706543,
+      "fracture_pressure_max_MPa": 21.014053344726562
+    },
+    {
+      "day": 92.0,
+      "mean_fracture_opacity": 0.9550808469454447,
+      "fracture_pressure_min_MPa": 12.630265235900879,
+      "fracture_pressure_max_MPa": 20.926761627197266
+    },
+    {
+      "day": 93.0,
+      "mean_fracture_opacity": 0.9574360884341997,
+      "fracture_pressure_min_MPa": 12.617862701416016,
+      "fracture_pressure_max_MPa": 20.841339111328125
+    },
+    {
+      "day": 94.0,
+      "mean_fracture_opacity": 0.9596787002897754,
+      "fracture_pressure_min_MPa": 12.596221923828125,
+      "fracture_pressure_max_MPa": 20.757726669311523
+    },
+    {
+      "day": 95.0,
+      "mean_fracture_opacity": 0.9618061047649056,
+      "fracture_pressure_min_MPa": 12.574491500854492,
+      "fracture_pressure_max_MPa": 20.675865173339844
+    },
+    {
+      "day": 96.0,
+      "mean_fracture_opacity": 0.9638058950810907,
+      "fracture_pressure_min_MPa": 12.553269386291504,
+      "fracture_pressure_max_MPa": 20.595699310302734
+    },
+    {
+      "day": 97.0,
+      "mean_fracture_opacity": 0.9655357117915072,
+      "fracture_pressure_min_MPa": 12.532537460327148,
+      "fracture_pressure_max_MPa": 20.517173767089844
+    },
+    {
+      "day": 98.0,
+      "mean_fracture_opacity": 0.9671368609179336,
+      "fracture_pressure_min_MPa": 12.512275695800781,
+      "fracture_pressure_max_MPa": 20.44023895263672
+    },
+    {
+      "day": 99.0,
+      "mean_fracture_opacity": 0.9686801046440282,
+      "fracture_pressure_min_MPa": 12.492466926574707,
+      "fracture_pressure_max_MPa": 20.364845275878906
+    },
+    {
+      "day": 100.0,
+      "mean_fracture_opacity": 0.9701119884592561,
+      "fracture_pressure_min_MPa": 12.47309684753418,
+      "fracture_pressure_max_MPa": 20.29094696044922
+    },
+    {
+      "day": 101.0,
+      "mean_fracture_opacity": 0.9715160743887072,
+      "fracture_pressure_min_MPa": 12.454147338867188,
+      "fracture_pressure_max_MPa": 20.218496322631836
+    },
+    {
+      "day": 102.0,
+      "mean_fracture_opacity": 0.9728931895236379,
+      "fracture_pressure_min_MPa": 12.4356050491333,
+      "fracture_pressure_max_MPa": 20.147451400756836
+    },
+    {
+      "day": 103.0,
+      "mean_fracture_opacity": 0.9742441402677818,
+      "fracture_pressure_min_MPa": 12.417455673217773,
+      "fracture_pressure_max_MPa": 20.077770233154297
+    },
+    {
+      "day": 104.0,
+      "mean_fracture_opacity": 0.9755696979994627,
+      "fracture_pressure_min_MPa": 12.399685859680176,
+      "fracture_pressure_max_MPa": 20.00941276550293
+    },
+    {
+      "day": 105.0,
+      "mean_fracture_opacity": 0.9768706037826145,
+      "fracture_pressure_min_MPa": 12.382282257080078,
+      "fracture_pressure_max_MPa": 19.942338943481445
+    },
+    {
+      "day": 106.0,
+      "mean_fracture_opacity": 0.9781475616074919,
+      "fracture_pressure_min_MPa": 12.365233421325684,
+      "fracture_pressure_max_MPa": 19.876514434814453
+    },
+    {
+      "day": 107.0,
+      "mean_fracture_opacity": 0.9794012627650782,
+      "fracture_pressure_min_MPa": 12.348527908325195,
+      "fracture_pressure_max_MPa": 19.81190299987793
+    },
+    {
+      "day": 108.0,
+      "mean_fracture_opacity": 0.9805656624413848,
+      "fracture_pressure_min_MPa": 12.3321533203125,
+      "fracture_pressure_max_MPa": 19.748470306396484
+    },
+    {
+      "day": 109.0,
+      "mean_fracture_opacity": 0.9816802969503239,
+      "fracture_pressure_min_MPa": 12.316100120544434,
+      "fracture_pressure_max_MPa": 19.686182022094727
+    },
+    {
+      "day": 110.0,
+      "mean_fracture_opacity": 0.9827752901926073,
+      "fracture_pressure_min_MPa": 12.300357818603516,
+      "fracture_pressure_max_MPa": 19.6250057220459
+    },
+    {
+      "day": 111.0,
+      "mean_fracture_opacity": 0.9838511804534807,
+      "fracture_pressure_min_MPa": 12.284916877746582,
+      "fracture_pressure_max_MPa": 19.56491470336914
+    },
+    {
+      "day": 112.0,
+      "mean_fracture_opacity": 0.9849084910658217,
+      "fracture_pressure_min_MPa": 12.269768714904785,
+      "fracture_pressure_max_MPa": 19.505876541137695
+    },
+    {
+      "day": 113.0,
+      "mean_fracture_opacity": 0.9859477138191564,
+      "fracture_pressure_min_MPa": 12.254903793334961,
+      "fracture_pressure_max_MPa": 19.44786262512207
+    },
+    {
+      "day": 114.0,
+      "mean_fracture_opacity": 0.9869693331292405,
+      "fracture_pressure_min_MPa": 12.240313529968262,
+      "fracture_pressure_max_MPa": 19.39084815979004
+    },
+    {
+      "day": 115.0,
+      "mean_fracture_opacity": 0.9879738137484416,
+      "fracture_pressure_min_MPa": 12.22598934173584,
+      "fracture_pressure_max_MPa": 19.334802627563477
+    },
+    {
+      "day": 116.0,
+      "mean_fracture_opacity": 0.9889139709194091,
+      "fracture_pressure_min_MPa": 12.21192455291748,
+      "fracture_pressure_max_MPa": 19.279705047607422
+    },
+    {
+      "day": 117.0,
+      "mean_fracture_opacity": 0.9897994782097151,
+      "fracture_pressure_min_MPa": 12.198111534118652,
+      "fracture_pressure_max_MPa": 19.225528717041016
+    },
+    {
+      "day": 118.0,
+      "mean_fracture_opacity": 0.9906705742849108,
+      "fracture_pressure_min_MPa": 12.184542655944824,
+      "fracture_pressure_max_MPa": 19.17224884033203
+    },
+    {
+      "day": 119.0,
+      "mean_fracture_opacity": 0.9915276413520997,
+      "fracture_pressure_min_MPa": 12.171210289001465,
+      "fracture_pressure_max_MPa": 19.119844436645508
+    },
+    {
+      "day": 120.0,
+      "mean_fracture_opacity": 0.9922988072703385,
+      "fracture_pressure_min_MPa": 12.158109664916992,
+      "fracture_pressure_max_MPa": 19.06829071044922
+    }
+  ]
+}

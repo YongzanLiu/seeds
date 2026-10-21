@@ -26,19 +26,17 @@
     {{ site.subtitle }}. {{ description }}
   {%- endcapture %}
 {% endif %}
-{% capture url -%}
-  {{ site.url }}{{ site.baseurl }}
-{%- endcapture %}
+{% assign url = page.url | absolute_url %}
 
 {% assign description = description | xml_escape %}
 
 {% assign png = "images/icon.png" | file_exists %}
 {% assign jpg = "images/icon.jpg" | file_exists %}
-{% assign icon = png | default: jpg | relative_url %}
+{% assign icon = png | default: jpg | absolute_url %}
 
 {% assign jpg = "images/share.jpg" | file_exists %}
 {% assign png = "images/share.png" | file_exists %}
-{% assign share = jpg | default: png | relative_url %}
+{% assign share = jpg | default: png | default: site.header | absolute_url %}
 
 {% assign published = page.date | date_to_xmlschema %}
 {% assign updated = page.last_modified_at | date_to_xmlschema %}
@@ -48,6 +46,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <title>{{ fulltitle }}</title>
+<link rel="canonical" href="{{ url }}">
 
 <link rel="icon" href="{{ icon }}">
 

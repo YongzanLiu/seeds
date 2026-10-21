@@ -1,21 +1,29 @@
 ---
-title: Blog
+title: News
+permalink: /news/
+redirect_from:
+  - /blog/
 nav:
-  order: 4
-  tooltip: Musings and miscellany
+  order: 5
+  tooltip: Latest news and updates
 ---
 
-# {% include icon.html icon="fa-solid fa-feather-pointed" %}Blog
+<div class="news-page" aria-labelledby="news-title">
+  <h1 id="news-title">News</h1>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
-{% include section.html %}
-
-{% include search-box.html %}
-
-{% include tags.html tags=site.tags %}
-
-{% include search-info.html %}
-
-{% include list.html data="posts" component="post-excerpt" %}
+  {% assign sorted_news = site.data.news | sort: "date" | reverse %}
+  {% assign years = sorted_news | group_by: "year" | sort: "name" | reverse %}
+  {% for year in years %}
+  <section class="news-year" aria-labelledby="news-{{ year.name }}">
+    <h2 id="news-{{ year.name }}">{{ year.name }}</h2>
+    <ul class="news-list">
+      {% for item in year.items %}
+      <li>
+        <time datetime="{{ item.date | escape }}">{{ item.date | date: "%b %-d, %Y" }}</time>
+        <p>{% include news-text.html item=item %}</p>
+      </li>
+      {% endfor %}
+    </ul>
+  </section>
+  {% endfor %}
+</div>

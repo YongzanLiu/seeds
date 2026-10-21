@@ -1,0 +1,5 @@
+.build/
+.mpl-cache/
+__pycache__/
+output/*.gif
+output/*-poster.png

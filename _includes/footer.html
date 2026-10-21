@@ -1,19 +1,24 @@
 {% assign image = page.footer | default: site.footer %}
 {% assign dark = page.footer-dark | is_nil: site.footer-dark | is_nil: true %}
+{% unless page.url == "/" %}{% assign dark = false %}{% endunless %}
 
 <footer
-  class="background"
+  class="background{% if page.url == "/" %} research-footer{% else %} subpage-footer{% endif %}"
+  {% if page.url == "/" %}
   style="--image: url('{{ image | relative_url | uri_escape }}')"
+  {% endif %}
   {% if dark == true or dark == false %}
     data-dark="{{ dark }}"
   {% endif %}
   data-size="wide"
 >
-  <!--
-    <div>
-      Extra details like contact info or address
-    </div>
-  -->
+  <div class="footer-affiliation">
+    <strong>{{ site.title | escape }}</strong><br>
+    State Key Laboratory of Deep Oil and Gas<br>
+    School of Petroleum Engineering<br>
+    China University of Petroleum (East China)<br>
+    Qingdao, China
+  </div>
 
   <div>
     {% for link in site.links %}

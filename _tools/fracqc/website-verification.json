@@ -1,0 +1,54 @@
+[
+  {
+    "mobile": false,
+    "normal": {
+      "src": "http://127.0.0.1:4000/images/software/fracqc/fracqc-field-characterization-v2.gif",
+      "loaded": true,
+      "width": 1600,
+      "height": 1000
+    },
+    "reduced": {
+      "src": "http://127.0.0.1:4000/images/software/fracqc/fracqc-field-characterization-v2-poster.png",
+      "loaded": true,
+      "width": 1600,
+      "height": 1000
+    },
+    "metrics": {
+      "width": 1440,
+      "contentWidth": 1440,
+      "titles": [
+        "FracDSS",
+        "FracQC",
+        "Software 3"
+      ],
+      "headingAnchors": 0
+    },
+    "failures": []
+  },
+  {
+    "mobile": true,
+    "normal": {
+      "src": "http://127.0.0.1:4000/images/software/fracqc/fracqc-field-characterization-mobile-v2.gif",
+      "loaded": true,
+      "width": 840,
+      "height": 1740
+    },
+    "reduced": {
+      "src": "http://127.0.0.1:4000/images/software/fracqc/fracqc-field-characterization-mobile-v2-poster.png",
+      "loaded": true,
+      "width": 840,
+      "height": 1740
+    },
+    "metrics": {
+      "width": 390,
+      "contentWidth": 390,
+      "titles": [
+        "FracDSS",
+        "FracQC",
+        "Software 3"
+      ],
+      "headingAnchors": 0
+    },
+    "failures": []
+  }
+]

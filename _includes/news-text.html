@@ -1,0 +1,9 @@
+{%- if include.item.url -%}
+  {%- assign news_url = include.item.url -%}
+  {%- unless news_url contains '://' -%}
+    {%- assign news_url = news_url | relative_url -%}
+  {%- endunless -%}
+  <a href="{{ news_url | escape }}">{{ include.item.text | escape }}</a>
+{%- else -%}
+  {{- include.item.text | escape -}}
+{%- endif -%}

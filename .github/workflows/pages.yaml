@@ -1,0 +1,60 @@
+name: Deploy SEEDS Lab website
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: pages-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Check out website source
+        uses: actions/checkout@v7.0.1
+
+      - name: Install Ruby and locked dependencies
+        uses: ruby/setup-ruby@v1.331.0
+        with:
+          ruby-version: '3.3'
+          bundler-cache: true
+
+      - name: Build production website
+        env:
+          JEKYLL_ENV: production
+        run: bundle exec jekyll build --config _config.yaml,_config.production.yaml --trace
+
+      - name: Verify pages, links, and media
+        run: python3 _tools/deployment/verify_site.py --site _site --baseurl /seeds
+
+      - name: Upload website artifact
+        if: github.event_name != 'pull_request'
+        uses: actions/upload-pages-artifact@v5.0.0
+        with:
+          path: _site
+
+  deploy:
+    if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+    needs: build
+    runs-on: ubuntu-24.04
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v6.0.0
+
+      - name: Publish website
+        id: deployment
+        uses: actions/deploy-pages@v5.0.1

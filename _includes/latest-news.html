@@ -1,0 +1,17 @@
+{% assign featured_news = site.data.news | where: "featured", true | sort: "date" | reverse | slice: 0, 2 %}
+{% if featured_news.size > 0 %}
+<div class="latest-news" aria-labelledby="latest-news-title">
+  <div class="latest-news-heading">
+    <h2 id="latest-news-title">Latest News</h2>
+    <a class="latest-news-all" href="{{ '/news/' | relative_url }}">View all news &rarr;</a>
+  </div>
+  <ul class="latest-news-list">
+    {% for item in featured_news %}
+    <li class="latest-news-item">
+      <time datetime="{{ item.date | escape }}">{{ item.date | date: "%b %-d, %Y" }}</time>
+      <p>{% include news-text.html item=item %}</p>
+    </li>
+    {% endfor %}
+  </ul>
+</div>
+{% endif %}

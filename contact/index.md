@@ -1,77 +1,39 @@
 ---
-title: Contact
+title: Contacts
+permalink: /contacts/
+redirect_from:
+  - /contact/
 nav:
-  order: 5
-  tooltip: Email, address, and location
+  order: 6
+  tooltip: Email, affiliations, and location
 ---
 
-# {% include icon.html icon="fa-regular fa-envelope" %}Contact
+# {% include icon.html icon="fa-regular fa-envelope" %}Contacts
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+For research collaboration or student inquiries, contact **Professor Yongzan Liu**, Principal Investigator of SEEDS Lab.
+{: .contact-introduction }
 
-{%
-  include button.html
-  type="email"
-  text="jane@smith.com"
-  link="jane@smith.com"
-%}
-{%
-  include button.html
-  type="phone"
-  text="(555) 867-5309"
-  link="+1-555-867-5309"
-%}
-{%
-  include button.html
-  type="address"
-  tooltip="Our location on Google Maps for easy navigation"
-  link="https://www.google.com/maps"
-%}
+{% include button.html type="email" text="liuyongzan@upc.edu.cn" link="liuyongzan@upc.edu.cn" %}
 
 {% include section.html %}
 
-{% capture col1 %}
+## Affiliations
 
-{%
-  include figure.html
-  image="images/photo.jpg"
-  caption="Lorem ipsum"
-%}
+**State Key Laboratory of Deep Oil and Gas**<br>
+**School of Petroleum Engineering**<br>
+**China University of Petroleum (East China)**
 
-{% endcapture %}
+深层油气全国重点实验室 · 石油工程学院<br>
+中国石油大学（华东）
 
-{% capture col2 %}
+## Mailing Address
 
-{%
-  include figure.html
-  image="images/photo.jpg"
-  caption="Lorem ipsum"
-%}
+School of Petroleum Engineering<br>
+China University of Petroleum (East China)<br>
+66 Changjiang West Road<br>
+Qingdao, Shandong 266580, China
 
-{% endcapture %}
+## University Profiles
 
-{% include cols.html col1=col1 col2=col2 %}
-
-{% include section.html dark=true %}
-
-{% capture col1 %}
-Lorem ipsum dolor sit amet  
-consectetur adipiscing elit  
-sed do eiusmod tempor
-{% endcapture %}
-
-{% capture col2 %}
-Lorem ipsum dolor sit amet  
-consectetur adipiscing elit  
-sed do eiusmod tempor
-{% endcapture %}
-
-{% capture col3 %}
-Lorem ipsum dolor sit amet  
-consectetur adipiscing elit  
-sed do eiusmod tempor
-{% endcapture %}
-
-{% include cols.html col1=col1 col2=col2 col3=col3 %}
+- [School of Petroleum Engineering](https://pe.upc.edu.cn/2025/0226/c20540a451271/page.htm)
+- [State Key Laboratory of Deep Oil and Gas](https://skldog.upc.edu.cn/2025/1103/c22290a475211/page.htm)

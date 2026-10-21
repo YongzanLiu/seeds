@@ -1,0 +1,65 @@
+---
+---
+
+.research-overview {
+  max-width: 1120px;
+  margin: 0 auto;
+}
+
+.overview-heading {
+  text-align: center;
+
+  h1,
+  h2 {
+    margin: 12px 0;
+    padding: 0;
+    border: 0;
+    text-align: center;
+    font-size: clamp(30px, 3vw, 42px);
+    font-weight: 600;
+    letter-spacing: 0;
+    text-transform: none;
+  }
+
+  p {
+    max-width: 980px;
+    margin: 0 auto;
+    text-align: left;
+  }
+}
+
+.homepage-welcome {
+  font-family: var(--heading);
+  font-size: clamp(30px, 3vw, 42px);
+  font-weight: 600;
+  letter-spacing: 0;
+  text-transform: none;
+  text-align: center;
+}
+
+.overview-framework {
+  max-width: 1120px;
+  margin: 30px auto 0;
+
+  a { display: block; }
+
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 16px;
+    background: #fff;
+  }
+
+}
+
+.overview-editable-links {
+  text-align: center;
+  font-size: 14px;
+  line-height: 1.7;
+  margin: 16px 0 0;
+}
+
+@media (max-width: 480px) {
+  .overview-framework { margin-top: 22px; }
+}

@@ -1,27 +1,18 @@
 ---
-title: Projects
+title: Software
+permalink: /software/
+redirect_from:
+  - /projects/
 nav:
-  order: 2
-  tooltip: Software, datasets, and more
+  order: 4
+  tooltip: Research software and tools
 ---
 
-# {% include icon.html icon="fa-solid fa-wrench" %}Projects
+<div class="research-projects-page software-page" aria-labelledby="software-title">
+  <div class="overview-heading research-projects-heading">
+    <h1 id="software-title">Software</h1>
+    <p>One of our goals is to translate <a href="{{ '/research/' | relative_url }}">our research</a> into lightweight software tools that address practical field challenges. Industry partners who sponsor our research may request a licence for the software listed below. Please <a href="{{ '/contacts/' | relative_url }}">contact us</a> to discuss potential collaboration.</p>
+  </div>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
-{% include tags.html tags="publication, resource, website" %}
-
-{% include search-info.html %}
-
-{% include section.html %}
-
-## Featured
-
-{% include list.html component="card" data="projects" filter="group == 'featured'" %}
-
-{% include section.html %}
-
-## More
-
-{% include list.html component="card" data="projects" filter="!group" style="small" %}
+  {% include research-projects.html projects=site.data.software id_prefix="software" placeholder_label="Image coming soon" %}
+</div>

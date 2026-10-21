@@ -1,0 +1,34 @@
+{
+  "status": "passed",
+  "transition": "600 ms continuous sweep with right-panel fades; no intermediate notice or pause; no added inversion results",
+  "monitoring_black_marker_max_column_fraction": [
+    0.0,
+    0.00546448087431694
+  ],
+  "animations": [
+    {
+      "file": "fracqc-field-characterization-v2.gif",
+      "frames": 147,
+      "dimensions": [
+        1600,
+        1000
+      ],
+      "duration_ms": 14970,
+      "bytes": 1273700,
+      "max_decoded_frame_mae": 2.088938541666667,
+      "max_scan_registration_error_px": 0.49901895418611275
+    },
+    {
+      "file": "fracqc-field-characterization-mobile-v2.gif",
+      "frames": 147,
+      "dimensions": [
+        840,
+        1740
+      ],
+      "duration_ms": 14970,
+      "bytes": 1224095,
+      "max_decoded_frame_mae": 2.115299899653348,
+      "max_scan_registration_error_px": 0.46358512572840027
+    }
+  ]
+}

@@ -17,7 +17,7 @@
   {% endif %}
 >
   <a href="{{ "/" | relative_url }}" class="home">
-    {% if logo %}
+    {% if logo and site.show-logo == true %}
       <span class="logo">
         {% if svg %}
           {{ svg | file_read }}
@@ -32,7 +32,22 @@
           <span class="title">{{ site.title }}</span>
         {% endif %}
         {% if site.subtitle and site.show-subtitle != false %}
-          <span class="subtitle">{{ site.subtitle }}</span>
+          <span class="subtitle">
+            {%- if page.url == "/" -%}
+              {%- assign subtitle_words = site.subtitle | split: " " -%}
+              {%- for word in subtitle_words -%}
+                {%- unless forloop.first -%}{{ " " }}{%- endunless -%}
+                {%- assign lowercase_word = word | downcase -%}
+                {%- if lowercase_word == "and" -%}
+                  {{- word | escape -}}
+                {%- else -%}
+                  <span class="subtitle-word"><span class="acronym-initial">{{ word | slice: 0, 1 | escape }}</span>{{ word | slice: 1, 200 | escape }}</span>
+                {%- endif -%}
+              {%- endfor -%}
+            {%- else -%}
+              {{- site.subtitle | escape -}}
+            {%- endif -%}
+          </span>
         {% endif %}
       </span>
     {% endif %}
@@ -48,7 +63,7 @@
     {% for page in pages %}
       {% if page.nav %}
         <a
-          href="{{ page.dir | relative_url | uri_escape }}"
+          href="{{ page.url | relative_url | uri_escape }}"
           data-tooltip="{{ page.nav.tooltip | xml_escape }}"
         >
           {{ page.title }}

@@ -1,0 +1,599 @@
+---
+---
+
+.research-project-media picture {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.research-project-detail {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.research-project-back {
+  display: flex;
+  width: fit-content;
+  margin-bottom: 24px;
+  font-size: 17px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.research-project-detail h1 {
+  margin: 18px 0 26px;
+  font-size: clamp(30px, 3vw, 42px);
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+.research-project-detail-intro p {
+  font-size: 18px;
+  line-height: 1.8;
+  text-align: left;
+}
+
+.research-project-detail-figure {
+  margin: 32px 0 0;
+
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    background: #ffffff;
+  }
+
+  figcaption {
+    max-width: 850px;
+    margin: 16px auto 0;
+    color: var(--dark-gray);
+    font-size: 16px;
+    line-height: 1.65;
+    text-align: center;
+  }
+}
+
+.research-project-section {
+  margin-top: 36px;
+  padding: 32px 0 4px;
+  border-top: 1px solid var(--light-gray);
+}
+
+.research-project-section-heading {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  align-items: start;
+  gap: 14px;
+}
+
+.research-project-section-number,
+.research-project-section-heading h2 {
+  font-family: var(--heading);
+  font-size: clamp(24px, 2.2vw, 30px);
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+.research-project-section-number {
+  color: var(--primary);
+}
+
+.research-project-section-heading h2 {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  letter-spacing: 0;
+  text-align: left;
+  text-transform: none;
+}
+
+.research-project-section-body p {
+  font-size: 18px;
+  line-height: 1.8;
+  text-align: left;
+}
+
+.research-project-section-body .research-project-section-placeholder {
+  margin: 16px 0 0;
+  color: var(--dark-gray);
+  font-size: 18px;
+}
+
+@media (max-width: 600px) {
+  .research-project-section {
+    margin-top: 28px;
+    padding-top: 24px;
+  }
+
+  .research-project-section-heading {
+    gap: 10px;
+  }
+}
+
+.research-project-section-body h3 {
+  margin: 28px 0 14px;
+  font-size: clamp(21px, 1.8vw, 24px);
+  font-weight: 600;
+  line-height: 1.35;
+  letter-spacing: 0;
+}
+
+.research-project-figure-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 24px;
+  margin: 24px 0 32px;
+
+  figure {
+    min-width: 0;
+    margin: 0;
+  }
+
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border: 1px solid var(--light-gray);
+    border-radius: 8px;
+    background: #ffffff;
+  }
+
+  figcaption {
+    margin-top: 12px;
+    color: var(--dark-gray);
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: left;
+  }
+}
+
+.research-project-strain-components {
+  max-width: 720px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.research-project-waterfalls {
+  max-width: 920px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.research-project-reference {
+  margin-top: 28px;
+  padding-top: 20px;
+  border-top: 1px solid var(--light-gray);
+
+  h3 {
+    margin: 0 0 10px;
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 1.4;
+    letter-spacing: 0;
+  }
+
+  p {
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.7;
+    text-align: left;
+    overflow-wrap: anywhere;
+  }
+}
+
+@media (max-width: 700px) {
+  .research-project-figure-grid {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 26px;
+  }
+
+  .research-project-strain-components {
+    max-width: 280px;
+  }
+}
+
+.research-project-inversion-figures {
+  grid-template-columns: minmax(0, 1fr);
+  gap: 28px;
+  max-width: 960px;
+  margin-right: auto;
+  margin-left: auto;
+
+  figure {
+    width: 100%;
+    justify-self: center;
+  }
+
+  picture {
+    display: block;
+    width: 100%;
+  }
+
+  .research-project-inversion-fit-figure,
+  .research-project-inversion-local-figure {
+    max-width: 920px;
+  }
+
+  .research-project-inversion-parameter-figure {
+    max-width: 740px;
+  }
+}
+
+.research-project-before-hit-figures {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 24px;
+  max-width: 900px;
+  align-items: start;
+
+  img {
+    aspect-ratio: 1.5;
+    object-fit: contain;
+  }
+}
+
+.research-project-after-hit-figures {
+  max-width: 820px;
+}
+
+@media (max-width: 700px) {
+  .research-project-before-hit-figures {
+    grid-template-columns: minmax(0, 1fr);
+
+    img {
+      aspect-ratio: auto;
+    }
+  }
+}
+
+.research-project-field-layout,
+.research-project-field-composite {
+  grid-template-columns: minmax(0, 1fr);
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.research-project-field-layout {
+  max-width: 600px;
+}
+
+.research-project-field-composite {
+  max-width: 1000px;
+}
+
+.research-project-field-panels {
+  display: grid;
+  grid-template-columns: minmax(0, 0.956685499fr) minmax(0, 1fr) minmax(0, 0.5366fr);
+  gap: 18px;
+  align-items: start;
+}
+
+.research-project-field-panel {
+  min-width: 0;
+  overflow: hidden;
+  border: 1px solid var(--light-gray);
+  border-radius: 8px;
+  background: #ffffff;
+
+  img {
+    width: 100%;
+    height: 100%;
+    min-height: 0;
+    object-fit: contain;
+    border: 0;
+    border-radius: 0;
+  }
+}
+
+.research-project-field-pre-hit {
+  aspect-ratio: 508 / 531;
+}
+
+.research-project-field-post-hit {
+  aspect-ratio: 1;
+}
+
+.research-project-field-response-stack {
+  display: grid;
+  grid-template-rows: repeat(2, minmax(0, 1fr));
+  gap: 8px;
+  aspect-ratio: 0.5366;
+}
+
+#field-assessment .research-project-reference p + p {
+  margin-top: 12px;
+}
+
+@media (max-width: 700px) {
+  .research-project-field-panels {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 24px;
+    max-width: 520px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+.geoftsim-coupling-figure,
+.geoftsim-verification-figures {
+  margin-right: auto;
+  margin-left: auto;
+
+  picture {
+    display: block;
+    width: 100%;
+  }
+}
+
+.geoftsim-coupling-figure {
+  grid-template-columns: minmax(0, 1fr);
+  max-width: 760px;
+
+  picture {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  figcaption {
+    text-align: center;
+  }
+}
+
+.geoftsim-verification-figures {
+  grid-template-columns: minmax(0, 0.75fr) minmax(0, 1fr);
+  max-width: 860px;
+  gap: 28px 24px;
+  align-items: start;
+
+  figure {
+    width: 100%;
+    justify-self: center;
+  }
+
+  .geoftsim-thm-verification {
+    grid-column: 1 / -1;
+    max-width: 640px;
+
+    picture {
+      max-width: 350px;
+      margin: 0 auto;
+    }
+
+    figcaption {
+      text-align: center;
+    }
+  }
+}
+
+#geoftsim-development .research-project-reference p + p {
+  margin-top: 12px;
+}
+
+@media (max-width: 700px) {
+  .geoftsim-coupling-figure {
+    max-width: 280px;
+  }
+
+  .geoftsim-verification-figures {
+    grid-template-columns: minmax(0, 1fr);
+    max-width: 310px;
+  }
+}
+
+.in-well-strain-figures {
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1.4fr);
+  gap: 20px;
+  max-width: 900px;
+  margin-right: auto;
+  margin-left: auto;
+  align-items: start;
+
+  .in-well-strain-media {
+    display: grid;
+    place-items: center;
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    border: 1px solid var(--light-gray);
+    border-radius: 8px;
+    background: #ffffff;
+  }
+
+  img {
+    width: 100%;
+    height: 100%;
+    min-height: 0;
+    object-fit: contain;
+    border: 0;
+    border-radius: 0;
+  }
+}
+
+@media (max-width: 700px) {
+  .in-well-strain-figures {
+    grid-template-columns: minmax(0, 1fr);
+    max-width: 360px;
+    gap: 24px;
+
+    .in-well-strain-media {
+      height: auto;
+      aspect-ratio: 4 / 3;
+    }
+  }
+}
+
+#geoftsim-applications,
+.geoftsim-application {
+  scroll-margin-top: 100px;
+}
+
+.geoftsim-application {
+  margin-top: 28px;
+
+  > .research-project-section-body > h3:first-child {
+    margin-top: 0;
+  }
+}
+
+.geoftsim-application + .geoftsim-application {
+  margin-top: 36px;
+  padding-top: 24px;
+  border-top: 1px solid var(--light-gray);
+}
+
+/* GeoFTSim application figures */
+
+.geoftsim-stress-figures,
+.geoftsim-flowback-figures,
+.geoftsim-egs-figures {
+  margin-right: auto;
+  margin-left: auto;
+
+  picture {
+    display: block;
+    width: 100%;
+  }
+}
+
+.geoftsim-stress-figures {
+  grid-template-columns: minmax(0, 1fr);
+  max-width: 760px;
+}
+
+.geoftsim-flowback-figures {
+  grid-template-columns: minmax(0, 1.65fr) minmax(0, 1fr);
+  max-width: 820px;
+  align-items: start;
+
+  .geoftsim-flowback-media {
+    height: 240px;
+  }
+}
+
+.geoftsim-egs-figures {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  max-width: 960px;
+  align-items: start;
+
+  .geoftsim-egs-field-media {
+    height: 200px;
+  }
+
+  .geoftsim-egs-waterfall-media {
+    height: 160px;
+  }
+}
+
+.geoftsim-flowback-media,
+.geoftsim-egs-media {
+  display: grid;
+  place-items: center;
+  width: 100%;
+  overflow: hidden;
+  border: 1px solid var(--light-gray);
+  border-radius: 8px;
+  background: #ffffff;
+
+  img {
+    width: 100%;
+    height: 100%;
+    min-height: 0;
+    object-fit: contain;
+    border: 0;
+    border-radius: 0;
+  }
+
+  picture {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    min-height: 0;
+  }
+}
+
+.geoftsim-egs-media img {
+  object-position: center top;
+}
+
+#egs-water-circulation .geoftsim-egs-case-note {
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--dark-gray);
+}
+
+#fracturing-fluid-flowback .research-project-reference p + p {
+  margin-top: 12px;
+}
+
+@media (max-width: 700px) {
+  .geoftsim-stress-figures,
+  .geoftsim-flowback-figures,
+  .geoftsim-egs-figures {
+    grid-template-columns: minmax(0, 1fr);
+    max-width: 360px;
+  }
+
+  .geoftsim-flowback-figures .geoftsim-flowback-media,
+  .geoftsim-egs-figures .geoftsim-egs-media {
+    height: auto;
+  }
+
+  .geoftsim-flowback-media img,
+  .geoftsim-egs-media img {
+    height: auto;
+  }
+}
+
+
+
+
+.induced-seismicity-detection-figure,
+.induced-seismicity-modeling-figures {
+  grid-template-columns: minmax(0, 1fr);
+  margin-right: auto;
+  margin-left: auto;
+  align-items: start;
+
+  picture {
+    display: block;
+  }
+
+}
+
+.induced-seismicity-detection-figure {
+  max-width: 940px;
+}
+
+.induced-seismicity-modeling-figures {
+  max-width: 800px;
+  gap: 28px;
+
+  .induced-seismicity-co2-figure {
+    width: 100%;
+    max-width: 660px;
+    justify-self: center;
+  }
+}
+
+.induced-seismicity-detail .research-project-section {
+  scroll-margin-top: 100px;
+}
+
+.induced-seismicity-detail .research-project-section-heading h2 {
+  text-wrap: balance;
+}
+
+.induced-seismicity-detail .research-project-reference p + p {
+  margin-top: 12px;
+}
+
+@media (max-width: 700px) {
+  .induced-seismicity-detection-figure,
+  .induced-seismicity-modeling-figures {
+    max-width: 360px;
+
+  }
+}

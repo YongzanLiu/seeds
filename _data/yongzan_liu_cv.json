@@ -1,0 +1,45 @@
+[
+  {
+    "id": "education",
+    "title": "Education",
+    "items": [
+      {"period": "2017–2021", "title": "Ph.D. in Petroleum Engineering", "detail": "Texas A&M University", "thesis_label": "Dissertation", "thesis_key": "IjCSPb-OGe4C"},
+      {"period": "2014–2017", "title": "M.S. in Petroleum Engineering", "detail": "University of Alberta", "thesis_label": "Thesis", "thesis_key": "_FxGoFyzp5QC"},
+      {"period": "2010–2014", "title": "B.Eng. in Petroleum Engineering", "detail": "China University of Petroleum (East China)"}
+    ]
+  },
+  {
+    "id": "professional-experience",
+    "title": "Professional Experience",
+    "items": [
+      {"period": "2025–present", "title": "Professor in Petroleum Engineering", "detail": "China University of Petroleum (East China)"},
+      {"period": "2022–2025", "title": "Senior Research Scientist", "detail": "Schlumberger-Doll Research"},
+      {"period": "2021–2022", "title": "Postdoctoral Scholar", "detail": "Lawrence Berkeley National Laboratory"}
+    ]
+  },
+  {
+    "id": "selected-awards-honors",
+    "title": "Selected Awards/Honors",
+    "items": [
+      {"period": "2026", "title": "A Peer Apart", "detail": "Society of Petroleum Engineers (SPE)"},
+      {"period": "2025, 2021", "title": "Technical Reviewer Outstanding Service Award", "detail": "Society of Petroleum Engineers (SPE)"},
+      {"period": "2024", "title": "Future Leader", "detail": "American Rock Mechanics Association (ARMA)"},
+      {"period": "2022", "title": "Faculty Award of Excellence in Research (Doctoral)", "detail": "Department of Petroleum Engineering, Texas A&M University"},
+      {"period": "2021", "title": "First-Place Winner, Graduate Research Competition", "detail": "American Rock Mechanics Association (ARMA)"}
+    ]
+  },
+  {
+    "id": "major-professional-activities",
+    "title": "Major Professional Activities",
+    "items": [
+      {"period": "2024–present", "title": "Associate Editor", "detail": "SPE Journal"},
+      {"period": "2022–present", "title": "Associate Editor", "detail": "Geoenergy Science and Engineering (formerly Journal of Petroleum Science and Engineering)"},
+      {"period": "2023–2025", "title": "Program Committee Member", "detail": "SPE Annual Technical Conference and Exhibition (ATCE)"},
+      {"period": "2025", "title": "Session Chair", "detail": "Unconventional Resources Technology Conference (URTeC)"},
+      {"period": "2024", "title": "Research Proposal Reviewer", "detail": "Czech Science Foundation"},
+      {"period": "2023, 2022", "title": "Session Chair", "detail": "ARMA US Rock Mechanics/Geomechanics Symposium"},
+      {"period": "2022, 2021", "title": "Judge, Student Paper Contest (Ph.D. Division)", "detail": "SPE Annual Technical Conference and Exhibition (ATCE)"}
+    ],
+    "note": "Journal reviewer for SPE Journal, International Journal of Rock Mechanics and Mining Sciences, Rock Mechanics and Rock Engineering, International Journal for Analytical and Numerical Methods in Geomechanics, GEOPHYSICS, Geophysical Research Letters, Energy & Fuels, and other journals"
+  }
+]

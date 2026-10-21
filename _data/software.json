@@ -1,0 +1,29 @@
+[
+  {
+    "title": "FracDSS",
+    "summary": "FracDSS simulates distributed strain signals induced by fracture propagation, opening and closure, and shear slip. It provides a forward-modeling basis for interpreting distributed fiber-optic strain measurements.",
+    "image": "images/software/fracdss/fracdss-two-well-monitoring.gif",
+    "poster": "images/software/fracdss/fracdss-two-well-monitoring-poster.png",
+    "image_alt": "Synchronized FracDSS results showing three-dimensional planar fracture growth, a schematic horizontal treatment well, horizontal and vertical monitoring wells, and progressively revealed strain-rate waterfalls from the two supplied cases.",
+    "mobile_image": "images/software/fracdss/fracdss-two-well-monitoring-mobile.gif",
+    "mobile_poster": "images/software/fracdss/fracdss-two-well-monitoring-mobile-poster.png",
+    "media_class": "research-project-media-stacked-mobile"
+  },
+  {
+    "title": "FracQC",
+    "summary": "FracQC quantitatively characterizes hydraulic-fracture geometry from field distributed strain measurements. It estimates fracture half-length before well intersection and fracture width and height after intersection, using data from vertical and horizontal monitoring wells.",
+    "image": "images/software/fracqc/fracqc-field-characterization-v2.gif",
+    "poster": "images/software/fracqc/fracqc-field-characterization-v2-poster.png",
+    "mobile_image": "images/software/fracqc/fracqc-field-characterization-mobile-v2.gif",
+    "mobile_poster": "images/software/fracqc/fracqc-field-characterization-mobile-v2-poster.png",
+    "image_alt": "Time-synchronized FracQC field example: a gold cursor scans vertical-well monitoring data, horizontal offset-well data and pumping curves; the results show fracture half-length before fracture hit, then fracture width and height from both monitoring wells after fracture hit.",
+    "media_class": "research-project-media-stacked-mobile"
+  },
+  {
+    "title": "GeoFTSim+",
+    "summary": "GeoFTSim+ simulates oil, gas, and water flow in deformable fractured porous media. We continuously develop the code to expand its modeling capabilities and broaden its applications in subsurface reservoirs.",
+    "image": "images/software/geoftsim-plus/geoftsim-upc-pressure-depletion-v2.gif",
+    "poster": "images/software/geoftsim-plus/geoftsim-upc-pressure-depletion-v2-poster.png",
+    "image_alt": "Illustrative three-dimensional reservoir pressure-depletion model. Three sets of prescribed vertical fractures form U, P and C in plan view; declining pressure gradually reveals the letters as production proceeds."
+  }
+]

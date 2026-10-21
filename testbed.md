@@ -1,9 +1,5 @@
 ---
 title: Testbed
-header: https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg/1024px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg
-footer: https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg/1024px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg
-header-dark: false
-footer-dark: false
 ---
 
 # Testbed
@@ -144,7 +140,7 @@ pie title Pets adopted by volunteers
 
 ## Section
 
-{% include section.html background="images/background.jpg" %}
+{% include section.html background=site.header %}
 
 Section, `background`
 
@@ -152,7 +148,7 @@ Section, `background`
 
 Section, `dark=true`
 
-{% include section.html background="images/background.jpg" dark=true %}
+{% include section.html background=site.header dark=true %}
 
 Section, `background` `dark=true`
 

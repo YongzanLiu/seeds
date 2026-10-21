@@ -1,32 +1,49 @@
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17228741.svg)](https://doi.org/10.5281/zenodo.17228741)
+# SEEDS Lab
 
-<h1 align="center">Lab Website Template</h1>
-<p align="center">
-<img height="200" src="https://raw.githubusercontent.com/greenelab/lab-website-template/main/images/share.jpg?raw=true" alt="Lab Website Template">
-</p>
+Website for SEEDS Lab at China University of Petroleum (East China).
 
-Lab Website Template (LWT) is an easy-to-use, flexible website template for labs.
-Spend less time worrying about managing a website and citations, and more time running your lab.
+Production address: **[yongzanliu.github.io/seeds](https://yongzanliu.github.io/seeds/)**
 
-👇👇 **Get Started** 👇👇
+## Local preview
 
-[**Documentation**](https://greene-lab.gitbook.io/lab-website-template-docs)
+Use Ruby 3.3 and Bundler, then run:
 
-## Key Features
+```sh
+bundle install
+bundle exec jekyll serve --livereload
+```
 
-- 🤖 Based on Git, GitHub, and Jekyll.
-- 📜 Automatically generated citations from simple identifiers (DOI, PubMed, ORCID, and many more) using Manubot. E.g. `doi:1234/5678` -> `title`, `authors`, `publisher`, `date`, etc.
-- 🧱 A comprehensive and flexible suite of pre-made components (building blocks) for structuring and styling your website:
-  - Formatted tables, code blocks, figures, and other basic elements.
-  - Citations with thumbnails and other rich details.
-  - List large sets of data with flexible filters and components.
-  - ...many more
-- 👁️ Automatic pull request previews.
-- ⚙️ Easy and automated configuration.
-- 👥 Team member pages with bios, roles, and social media links.
-- 🖋️ Blog posts with tags and rich content.
-- 📱 Works and looks good on desktop and mobile.
-- 🤝 Great documentation and support (if we do say so ourselves).
-- ... and much more!
+Open `http://127.0.0.1:4000/`. All website content and media are contained in this
+repository; files under `_tools/` document how selected research visuals were made.
 
-![GitHub last commit](https://img.shields.io/github/last-commit/greenelab/lab-website-template)
+## Production build
+
+```sh
+JEKYLL_ENV=production bundle exec jekyll build --config _config.yaml,_config.production.yaml
+python3 _tools/deployment/verify_site.py --site _site --baseurl /seeds
+```
+
+The production configuration applies the `/seeds` project path. The verifier
+checks local page, image, script, stylesheet, and anchor references. Template
+example people/posts and development files are excluded from published output.
+Generated files in `_site/` are not committed.
+
+## GitHub Pages deployment
+
+1. In this repository's **Settings → Pages → Build and deployment**, select
+   **GitHub Actions** as the source.
+2. Commit the website source and push `main` to `YongzanLiu/seeds`.
+3. Follow **Actions → Deploy SEEDS Lab website**. The workflow builds and verifies
+   the website, then publishes it to GitHub Pages.
+4. Check the homepage, research pages, team, publications, software animations,
+   news, and contact links at the production address.
+
+Later pushes to `main` deploy automatically. Pull requests build and validate
+without publishing. The workflow can also be run manually.
+
+Publication and team content is maintained in `_data/`. News updates are shared
+between the homepage and News page; see [_tools/news/README.md](_tools/news/README.md).
+The previous template automation is archived in `_tools/deployment/legacy-workflows/`
+and is inactive.
+
+Built with [Lab Website Template](https://github.com/greenelab/lab-website-template).

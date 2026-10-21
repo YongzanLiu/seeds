@@ -2,26 +2,14 @@
 title: Research
 nav:
   order: 1
-  tooltip: Published works
+  tooltip: Research directions and approaches
 ---
 
-# {% include icon.html icon="fa-solid fa-microscope" %}Research
+<div class="research-projects-page" aria-labelledby="current-research-title">
+  <div class="overview-heading research-projects-heading">
+    <h1 id="current-research-title">Current Research</h1>
+    <p>Our current research focuses on hydraulic fracturing and the role of fractures in subsurface energy production, storage, and carbon sequestration. We combine fracture monitoring and characterization with coupled process modeling to investigate fracture propagation, the long-term evolution of fracture properties, and their effects on fluid flow, heat transport, and reservoir behavior. The applications extend from unconventional oil and gas development to enhanced geothermal systems (EGS), energy storage, and geological CO<sub>2</sub> sequestration.</p>
+  </div>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
-{% include section.html %}
-
-## Highlighted
-
-{% include citation.html lookup="Open collaborative writing with Manubot" style="rich" %}
-
-{% include section.html %}
-
-## All
-
-{% include search-box.html %}
-
-{% include search-info.html %}
-
-{% include list.html data="citations" component="citation" style="rich" %}
+  {% include research-projects.html %}
+</div>

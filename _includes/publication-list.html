@@ -1,0 +1,48 @@
+{% assign publication_years = site.data.publications | group_by: "year" | sort: "name" | reverse %}
+
+<nav class="publication-years" aria-label="Publication years">
+  {% for year in publication_years %}
+    <a href="#publications-{{ year.name }}">{{ year.name }}</a>
+  {% endfor %}
+</nav>
+
+{% assign publication_number = 1 %}
+{% for year in publication_years %}
+  <section class="publication-year" id="publications-{{ year.name }}" aria-label="{{ year.name }} publications">
+    <h2>{{ year.name }}</h2>
+    <ol class="publication-list" start="{{ publication_number }}">
+      {% for paper in year.items %}
+        {% assign publication_type = "journal" %}
+        {% assign publication_label = "Journal" %}
+        {% case paper.kind %}
+          {% when "Conference paper" %}
+            {% assign publication_type = "conference" %}
+            {% assign publication_label = "Conference" %}
+          {% when "Patent" %}
+            {% assign publication_type = "patent" %}
+            {% assign publication_label = "Patent" %}
+          {% when "Doctoral dissertation" or "Master's thesis" %}
+            {% assign publication_type = "thesis" %}
+            {% assign publication_label = "Thesis" %}
+          {% when "Book" %}
+            {% assign publication_type = "book" %}
+            {% assign publication_label = "Book" %}
+        {% endcase %}
+        <li class="publication-entry">
+          <a class="publication-title" href="{{ paper.link | escape }}">{{ paper.title | escape }}</a>
+          <div class="publication-authors">
+            {{ paper.authors | join: ", " | escape }}
+          </div>
+          <div class="publication-details">
+            <span class="publication-badge publication-badge-{{ publication_type }}" title="{{ paper.kind | escape }}">{{ publication_label }}</span>
+            {% if paper.kind == "Doctoral dissertation" or paper.kind == "Master's thesis" %}
+              <span class="publication-kind">{{ paper.kind | escape }} &middot; </span>
+            {% endif %}
+            <cite>{{ paper.venue | escape }}</cite>
+          </div>
+        </li>
+      {% endfor %}
+    </ol>
+  </section>
+  {% assign publication_number = publication_number | plus: year.items.size %}
+{% endfor %}

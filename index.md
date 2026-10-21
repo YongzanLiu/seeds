@@ -1,94 +1,20 @@
 ---
 ---
 
-# Lab Website Template
+<h1 class="homepage-welcome">Welcome to SEEDS Lab</h1>
 
-[Lab Website Template](https://github.com/greenelab/lab-website-template) is an easy-to-use, flexible website template for [labs](https://www.greenelab.com/).
-Spend less time worrying about managing a website and citations, and more time running your lab.
+<div class="seeds-introduction" markdown="1">
 
-{%
-  include button.html
-  type="docs"
-  link="https://greene-lab.gitbook.io/lab-website-template-docs"
-%}
-{%
-  include button.html
-  type="github"
-  text="On GitHub"
-  link="greenelab/lab-website-template"
-%}
+SEEDS Lab investigates coupled **fluid flow, heat transport, and geomechanical deformation** in subsurface reservoirs and the **seismic responses** associated with these processes. By combining **numerical modeling, laboratory experiments, and field measurements**, we investigate how subsurface reservoirs respond to fluid injection, energy extraction, and storage.
 
-{% include section.html %}
+**Hydraulic fracturing** is a key focus of our current research. We investigate fracture propagation, quantitatively characterize hydraulic fracture geometry, and examine the long-term evolution of fracture properties. These efforts aim to improve the efficiency of unconventional oil and gas development, enhanced geothermal energy recovery, and subsurface energy storage.
 
-## Highlights
+We welcome **motivated PhD and master's students** who are passionate about modeling and monitoring of subsurface reservoirs. We also seek **industry partners** for collaborative research that addresses practical field challenges. Please [contact us]({{ '/contacts/' | relative_url }}) to discuss opportunities to join the lab or collaborate with our team.
 
-{% capture text %}
+</div>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+{% include latest-news.html %}
 
-{%
-  include button.html
-  link="research"
-  text="See our publications"
-  icon="fa-solid fa-arrow-right"
-  flip=true
-  style="bare"
-%}
+{% include section.html size="wide" %}
 
-{% endcapture %}
-
-{%
-  include feature.html
-  image="images/photo.jpg"
-  link="research"
-  title="Our Research"
-  text=text
-%}
-
-{% capture text %}
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-{%
-  include button.html
-  link="projects"
-  text="Browse our projects"
-  icon="fa-solid fa-arrow-right"
-  flip=true
-  style="bare"
-%}
-
-{% endcapture %}
-
-{%
-  include feature.html
-  image="images/photo.jpg"
-  link="projects"
-  title="Our Projects"
-  flip=true
-  style="bare"
-  text=text
-%}
-
-{% capture text %}
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-{%
-  include button.html
-  link="team"
-  text="Meet our team"
-  icon="fa-solid fa-arrow-right"
-  flip=true
-  style="bare"
-%}
-
-{% endcapture %}
-
-{%
-  include feature.html
-  image="images/photo.jpg"
-  link="team"
-  title="Our Team"
-  text=text
-%}
+{% include research-overview.html %}

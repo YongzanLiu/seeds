@@ -1,0 +1,42 @@
+{% assign projects_to_show = include.projects | default: site.data.research_projects %}
+{% assign project_id_prefix = include.id_prefix | default: "research-project" %}
+<div class="research-projects-list">
+  {% for project in projects_to_show %}
+    <article class="research-project" aria-labelledby="{{ project_id_prefix | escape }}-{{ forloop.index }}-title">
+      <figure class="research-project-media{% if project.media_class %} {{ project.media_class | escape }}{% endif %}">
+        {% if project.image %}
+          <picture>
+            {% if project.mobile_poster %}
+              <source media="(max-width: 700px) and (prefers-reduced-motion: reduce)" srcset="{{ project.mobile_poster | relative_url | uri_escape }}">
+            {% endif %}
+            {% if project.poster %}
+              <source media="(prefers-reduced-motion: reduce)" srcset="{{ project.poster | relative_url | uri_escape }}">
+            {% endif %}
+            {% if project.mobile_image %}
+              <source media="(max-width: 700px)" srcset="{{ project.mobile_image | relative_url | uri_escape }}">
+            {% endif %}
+            <img
+              src="{{ project.image | relative_url | uri_escape }}"
+              alt="{{ project.image_alt | default: project.title | escape }}"
+              loading="lazy"
+              decoding="async"
+            >
+          </picture>
+        {% else %}
+          <div class="research-project-placeholder" aria-hidden="true">{{ include.placeholder_label | default: "Project image" | escape }}</div>
+        {% endif %}
+      </figure>
+      <div class="research-project-copy">
+        <h2 id="{{ project_id_prefix | escape }}-{{ forloop.index }}-title">{{ project.title | escape }}</h2>
+        {% if project.summary %}
+          <div class="research-project-summary">{{ project.summary | markdownify }}</div>
+        {% endif %}
+        {% if project.url %}
+          <a class="research-project-link" href="{{ project.url | relative_url | uri_escape }}">
+            {{ project.link_label | default: "Explore this project" | escape }} <span aria-hidden="true">&rarr;</span>
+          </a>
+        {% endif %}
+      </div>
+    </article>
+  {% endfor %}
+</div>
