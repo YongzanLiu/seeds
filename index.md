@@ -11,6 +11,10 @@ SEEDS Lab investigates coupled **fluid flow, heat transport, and geomechanical d
 
 We welcome **motivated PhD and master's students** who are passionate about modeling and monitoring of subsurface reservoirs. We also seek **industry partners** for collaborative research that addresses practical field challenges. Please [contact us]({{ '/contacts/' | relative_url }}) to discuss opportunities to join the lab or collaborate with our team.
 
+**Announcement:** We have multiple PhD and master's positions available for 2027 entry. Please feel free to [contact us]({{ '/contacts/' | relative_url }}) with your CV and academic transcripts.
+{: .homepage-announcement }
+
+
 </div>
 
 {% include latest-news.html %}

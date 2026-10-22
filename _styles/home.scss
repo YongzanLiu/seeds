@@ -12,6 +12,25 @@
   margin-top: 28px;
 }
 
+.seeds-introduction .homepage-announcement {
+  padding: 16px 20px;
+  border-left: 3px solid currentColor;
+  border-radius: 0 8px 8px 0;
+  background: #eff8ff;
+  color: #075985;
+
+  a {
+    color: inherit;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+  }
+}
+
+[data-dark="true"] .seeds-introduction .homepage-announcement {
+  background: #112b3b;
+  color: #bae6fd;
+}
+
 .latest-news {
   margin-top: 40px;
   padding-top: 28px;
